@@ -1,6 +1,6 @@
 {
-    "name": "islandora/islandora-starter-site",
-    "description": "Project template for Islandora sites.",
+    "name": "jhu-idc/idc-codebase",
+    "description": "JHU template for Islandora repository.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.islandora.ca",
