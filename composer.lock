@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "480b0c07e024a8396a6c784c6d4f261a",
+    "content-hash": "987c9a37a84af8f1823440bbb7fe65fd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1700,60 +1700,6 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
-            }
-        },
-        {
-            "name": "drupal/bootstrap_barrio",
-            "version": "4.33.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "8.x-4.33"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-8.x-4.33.zip",
-                "reference": "8.x-4.33",
-                "shasum": "a8002d713fc1f14e7b98846c65fc5c56239c094c"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "twbs/bootstrap": "^4.4.1"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-4.33",
-                    "datestamp": "1603660944",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Alberto Siles",
-                    "homepage": "https://www.drupal.org/user/827704",
-                    "email": "alberto@siles.pe"
-                },
-                {
-                    "name": "Ricardo.Castaneda",
-                    "homepage": "https://www.drupal.org/user/3520894"
-                },
-                {
-                    "name": "WillAcon",
-                    "homepage": "https://www.drupal.org/user/2824325"
-                }
-            ],
-            "description": "Bootstrap 4 base theme.",
-            "homepage": "https://www.drupal.org/project/bootstrap_barrio",
-            "support": {
-                "source": "https://git.drupalcode.org/project/bootstrap_barrio"
             }
         },
         {
@@ -4526,16 +4472,6 @@
             "time": "2022-06-20T21:43:03+00:00"
         },
         {
-            "name": "islandora-devops/islandora_base_theme",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/islandora-devops/islandora_base_theme.git",
-                "reference": "main"
-            },
-            "type": "drupal-theme"
-        },
-        {
             "name": "islandora-rdm/islandora_fits",
             "version": "dev-8.x-1.x",
             "source": {
@@ -4930,20 +4866,6 @@
                 "source": "https://github.com/Islandora/openseadragon/tree/2.0.3"
             },
             "time": "2022-09-15T15:58:47+00:00"
-        },
-        {
-            "name": "jhu-idc/idc_ui_theme_boots",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/donrichards/idc_ui_theme_boots.git",
-                "reference": "main"
-            },
-            "require": {
-                "drupal/bootstrap_barrio": "^4.0",
-                "islandora-devops/islandora_base_theme": "^1.0.0"
-            },
-            "type": "drupal-theme"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -10424,61 +10346,6 @@
                 }
             ],
             "time": "2022-08-02T15:47:23+00:00"
-        },
-        {
-            "name": "twbs/bootstrap",
-            "version": "v4.6.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/e5643aaa89eb67327a5b4abe7db976f0ea276b70",
-                "reference": "e5643aaa89eb67327a5b4abe7db976f0ea276b70",
-                "shasum": ""
-            },
-            "replace": {
-                "twitter/bootstrap": "self.version"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                },
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                }
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "https://getbootstrap.com/",
-            "keywords": [
-                "JS",
-                "css",
-                "framework",
-                "front-end",
-                "mobile-first",
-                "responsive",
-                "sass",
-                "web"
-            ],
-            "support": {
-                "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v4.6.2"
-            },
-            "time": "2022-07-19T15:13:44+00:00"
         },
         {
             "name": "twig/twig",

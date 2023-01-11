@@ -90,7 +90,6 @@
         "islandora/controlled_access_terms": "^2",
         "islandora/islandora": "^2.5",
         "islandora/openseadragon": "^2",
-        "jhu-idc/idc_ui_theme_boots": "^1.0",
         "library/pdf.js": "^2.4"
     },
     "conflict": {
