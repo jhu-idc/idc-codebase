@@ -156,6 +156,7 @@
     },
     "require-dev": {
         "drupal/config_inspector": "^2.1",
+        "drupal/console": "^1.9",
         "drupal/devel": "^4.1",
         "drupal/restui": "^1.21"
     }
