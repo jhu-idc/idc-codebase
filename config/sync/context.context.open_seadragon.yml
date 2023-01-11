@@ -22,10 +22,10 @@ conditions:
     logic: and
     tids:
       -
-        target_id: '35'
+        target_id: 35
 reactions:
   view_mode_alter:
     id: view_mode_alter
-    mode: node.open_seadragon
     saved: false
+    mode: node.open_seadragon
 weight: -2

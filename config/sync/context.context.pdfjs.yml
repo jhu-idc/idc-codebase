@@ -23,6 +23,6 @@ conditions:
 reactions:
   view_mode_alter:
     id: view_mode_alter
-    mode: node.pdfjs
     saved: false
+    mode: node.pdfjs
 weight: 0

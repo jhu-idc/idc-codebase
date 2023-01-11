@@ -27,7 +27,7 @@ conditions:
 reactions:
   derivative:
     id: derivative
+    saved: false
     actions:
       generate_a_technical_metadata_derivative: generate_a_technical_metadata_derivative
-    saved: false
 weight: 0

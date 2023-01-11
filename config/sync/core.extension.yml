@@ -51,12 +51,12 @@ module:
   islandora_text_extraction: 0
   islandora_text_extraction_defaults: 0
   islandora_video: 0
+  islandora_workbench_integration: 0
   jsonld: 0
   jwt: 0
   key: 0
   language: 0
   link: 0
-  matomo: 0
   media: 0
   menu_link_content: 0
   menu_ui: 0

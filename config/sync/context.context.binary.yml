@@ -22,10 +22,10 @@ conditions:
     logic: and
     tids:
       -
-        target_id: '5'
+        target_id: 5
 reactions:
   view_mode_alter:
     id: view_mode_alter
-    mode: node.binary
     saved: false
+    mode: node.binary
 weight: 0

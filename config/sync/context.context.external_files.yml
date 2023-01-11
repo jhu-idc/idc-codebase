@@ -23,12 +23,12 @@ conditions:
 reactions:
   index:
     id: index
+    saved: false
     actions:
       index_file_as_fedora_external_content: index_file_as_fedora_external_content
-    saved: false
   delete:
     id: delete
+    saved: false
     actions:
       delete_file_as_fedora_external_content: delete_file_as_fedora_external_content
-    saved: false
 weight: -7
