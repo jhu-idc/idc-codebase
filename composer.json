@@ -28,19 +28,6 @@
         {
             "type": "package",
             "package": {
-                "name": "islandora-devops/islandora_base_theme",
-                "version": "1.0.0",
-                "type": "drupal-theme",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/islandora-devops/islandora_base_theme.git",
-                    "reference": "main"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "mjordan/islandora_workbench_integration",
                 "version": "1.0.0",
                 "type": "drupal-module",
@@ -59,11 +46,10 @@
                 "type": "drupal-theme",
                 "source": {
                     "type": "git",
-                    "url": "https://github.com/donrichards/idc_ui_theme_boots.git",
+                    "url": "https://github.com/jhu-idc/idc_ui_theme_boots.git",
                     "reference": "main"
                 },
                 "require": {
-                    "islandora-devops/islandora_base_theme": "^1.0.0",
                     "drupal/bootstrap_barrio": "^4.0"
                 }
             }
@@ -74,6 +60,7 @@
         "composer/installers": "*",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.1",
+        "drupal/block_class": "^2.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/facets": "^2",
@@ -90,6 +77,7 @@
         "islandora/controlled_access_terms": "^2",
         "islandora/islandora": "^2.5",
         "islandora/openseadragon": "^2",
+        "jhu-idc/idc_ui_theme_boots": "^1.0",
         "library/pdf.js": "^2.4",
         "mjordan/islandora_workbench_integration": "^1.0"
     },

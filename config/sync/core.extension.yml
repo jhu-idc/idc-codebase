@@ -7,6 +7,7 @@ module:
   basic_auth: 0
   big_pipe: 0
   block: 0
+  block_class: 0
   block_content: 0
   breakpoint: 0
   ckeditor: 0
@@ -100,4 +101,6 @@ theme:
   olivero: 0
   claro: 0
   bartik: 0
+  bootstrap_barrio: 0
+  idc_ui_theme_boots: 0
 profile: minimal

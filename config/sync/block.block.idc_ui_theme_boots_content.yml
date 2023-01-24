@@ -1,0 +1,39 @@
+uuid: f968f576-84ab-4ac0-a1cc-f0c80543191a
+langcode: en
+status: true
+dependencies:
+  module:
+    - context
+    - islandora
+    - system
+  theme:
+    - idc_ui_theme_boots
+_core:
+  default_config_hash: '-Ely7aca6HCneqfGWjAf5HqfD2pvxkntcw_xfWp4zk4'
+id: idc_ui_theme_boots_content
+theme: idc_ui_theme_boots
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    view_inclusion: {  }
+    context_mapping: {  }
+  request_path_exclusion:
+    id: request_path_exclusion
+    pages: ''
+    negate: null
+    context_mapping: {  }
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }

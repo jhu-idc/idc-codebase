@@ -1,0 +1,21 @@
+uuid: 0b0b8272-d705-42e8-993e-64be8f3694a4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - idc_ui_theme_boots
+_core:
+  default_config_hash: 2zRQ41JGreC8-JoiEv5F_wonEn5OFeUMck4DGpYg1Po
+id: idc_ui_theme_boots_footercopyright
+theme: idc_ui_theme_boots
+region: footer_first
+weight: -6
+provider: null
+plugin: 'fixed_block_content:carapace_fb_copyright'
+settings:
+  id: 'fixed_block_content:carapace_fb_copyright'
+  label: 'Footer: Copyright'
+  label_display: '0'
+  provider: fixed_block_content
+  view_mode: ''
+visibility: {  }
