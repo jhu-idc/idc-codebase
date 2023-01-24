@@ -23,6 +23,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   eva: 0
@@ -103,4 +104,5 @@ theme:
   bartik: 0
   bootstrap_barrio: 0
   idc_ui_theme_boots: 0
+  bootstrap_barrio_subtheme: 0
 profile: minimal
