@@ -1,0 +1,10 @@
+name: Flysystem
+description: 'Provides access to various filesystem backends using Flysystem.'
+package: Flysystem
+type: module
+core_version_requirement: ^8.8 || ^9
+
+# Information added by Drupal.org packaging script on 2021-08-10
+version: '2.0.0-beta1'
+project: 'flysystem'
+datestamp: 1628606418
