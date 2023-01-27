@@ -9,7 +9,7 @@ _core:
 label: 'All Media'
 name: all_media
 group: Indexing
-description: 'All media, regardless of where it lives'
+description: 'Index all media bundles in Fedora and Blazegraph'
 requireAllConditions: false
 disabled: false
 conditions:
@@ -23,7 +23,9 @@ conditions:
       document: document
       extracted_text: extracted_text
       file: file
+      fits_technical_metadata: fits_technical_metadata
       image: image
+      remote_video: remote_video
       video: video
 reactions:
   alter_jsonld_type:

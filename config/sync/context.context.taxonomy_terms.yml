@@ -9,7 +9,7 @@ _core:
 label: 'Taxonomy Terms'
 name: taxonomy_terms
 group: Indexing
-description: 'All taxonomy terms'
+description: 'Index all taxonomy terms in Fedora and Blazegraph'
 requireAllConditions: false
 disabled: false
 conditions:

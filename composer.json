@@ -53,6 +53,22 @@
                     "drupal/bootstrap_barrio": "^4.0"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jhu-idc/idc_default_migration",
+                "version": "1.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/DonRichards/idc_default_migration.git",
+                    "reference": "main"
+                },
+                "require": {
+                    "drupal/migrate_plus": "*"
+                }
+            }
         }
     ],
     "require": {
@@ -77,6 +93,7 @@
         "islandora/controlled_access_terms": "^2",
         "islandora/islandora": "^2.5",
         "islandora/openseadragon": "^2",
+        "jhu-idc/idc_default_migration": "1.0.0",
         "jhu-idc/idc_ui_theme_boots": "^1.0",
         "library/pdf.js": "^2.4",
         "mjordan/islandora_workbench_integration": "^1.0"
@@ -143,9 +160,12 @@
         }
     },
     "require-dev": {
+        "drupal/coder": "^8.3",
         "drupal/config_inspector": "^2.1",
         "drupal/console": "^1.9",
         "drupal/devel": "^4.1",
-        "drupal/restui": "^1.21"
+        "drupal/restui": "^1.21",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "squizlabs/php_codesniffer": "*"
     }
 }

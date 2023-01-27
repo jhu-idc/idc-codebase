@@ -32,6 +32,6 @@ reactions:
     id: derivative
     saved: false
     actions:
+      digital_document_generate_a_thumbnail_from_an_original_file: digital_document_generate_a_thumbnail_from_an_original_file
       get_ocr_from_image: get_ocr_from_image
-      image_generate_a_thumbnail_from_an_original_file: digital_document_generate_a_thumbnail_from_an_original_file
 weight: -6

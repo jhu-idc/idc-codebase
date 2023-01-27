@@ -1,4 +1,4 @@
-uuid: d2109c3b-b085-45c2-8491-cc401b50841c
+uuid: e04bd2dd-af06-41fd-87cd-1c5af9f18acb
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   theme:
     - idc_ui_theme_boots
 _core:
-  default_config_hash: HEprITuUHU-9gApuHHgi5DiOsP-yzABi5BwgO2G1_xM
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
 id: idc_ui_theme_boots_messages
 theme: idc_ui_theme_boots
 region: highlighted
-weight: -7
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

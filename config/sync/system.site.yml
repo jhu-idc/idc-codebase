@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 86955ff9-1be3-40ad-84ae-414c65ae901c
-name: 'Hopkins Digital Library'
-mail: admin@example.com
-slogan: 'Collections and Scholarship from Johns Hopkins University'
+name: 'HOPKINS DIGITAL LIBRARY'
+mail: donrichards@jhu.edu
+slogan: 'Collections and scholarship from Johns Hopkins University'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /collections
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

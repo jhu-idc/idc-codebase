@@ -15,7 +15,7 @@ _core:
 id: creatorsandcontributors
 theme: olivero
 region: sidebar
-weight: 0
+weight: -8
 provider: null
 plugin: 'facet_block:creators_and_contributors'
 settings:

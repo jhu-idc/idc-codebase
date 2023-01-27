@@ -1,4 +1,4 @@
-uuid: b6ca2288-0cf5-45c0-9a1a-9ecfe49babcc
+uuid: bd9403a7-f2f4-4776-ba5b-9b7299eae991
 langcode: en
 status: true
 dependencies:
@@ -9,11 +9,11 @@ dependencies:
   theme:
     - bootstrap_barrio
 _core:
-  default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
+  default_config_hash: UnALXKN9BfRPollIjAI9kSu6YpvuB6zhseorFtN2xW8
 id: bootstrap_barrio_account_menu
 theme: bootstrap_barrio
 region: secondary_menu
-weight: -4
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:

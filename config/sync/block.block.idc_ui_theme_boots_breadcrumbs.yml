@@ -1,23 +1,17 @@
-uuid: 9fe97489-076f-4050-9580-114cc7f09d2a
+uuid: 58586bdc-2dcf-4253-a3b7-14b1c8eb28a7
 langcode: en
 status: true
 dependencies:
   module:
-    - block_class
-    - context
-    - islandora
     - system
   theme:
     - idc_ui_theme_boots
-third_party_settings:
-  block_class:
-    classes: site__islandora_breadcrumbs
 _core:
-  default_config_hash: CpxwANPbCfb7M6RSFMinuAKDxnRYaGaiXZiWqiz5fO0
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: idc_ui_theme_boots_breadcrumbs
 theme: idc_ui_theme_boots
 region: breadcrumb
-weight: -9
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:
@@ -25,19 +19,4 @@ settings:
   label: Breadcrumbs
   label_display: '0'
   provider: system
-visibility:
-  view_inclusion:
-    id: view_inclusion
-    negate: null
-    context_mapping: {  }
-    view_inclusion: {  }
-  request_path_exclusion:
-    id: request_path_exclusion
-    negate: null
-    context_mapping: {  }
-    pages: ''
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

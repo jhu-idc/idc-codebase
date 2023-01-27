@@ -1,4 +1,4 @@
-uuid: ff70b224-280e-4eba-a084-835ff7b3a242
+uuid: 708bd022-0d77-46fa-8afd-6b2f06c23369
 langcode: en
 status: true
 dependencies:
@@ -7,10 +7,10 @@ dependencies:
   theme:
     - idc_ui_theme_boots
 _core:
-  default_config_hash: 4c-NVx_aiVH9m_XGdptTwOZREgGRj7qBrvSpdnt0z5s
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: idc_ui_theme_boots_help
 theme: idc_ui_theme_boots
-region: content
+region: top_header
 weight: -6
 provider: null
 plugin: help_block
