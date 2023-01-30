@@ -2,6 +2,9 @@ uuid: 2d5933d0-c5a8-427c-a8de-fcfb23dfd90d
 langcode: en
 status: true
 dependencies:
+  module:
+    - context
+    - islandora
   theme:
     - idc_ui_theme_boots
 _core:
@@ -17,4 +20,32 @@ settings:
   label: 'Page title'
   label_display: '0'
   provider: core
-visibility: {  }
+visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  context:
+    id: context
+    negate: null
+    values: ''
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: true
+    pages: '<front>'
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

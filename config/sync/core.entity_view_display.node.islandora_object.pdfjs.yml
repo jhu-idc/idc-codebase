@@ -61,6 +61,16 @@ targetEntityType: node
 bundle: islandora_object
 mode: pdfjs
 content:
+  display_media_entity_view_3:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_original_download:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   field_abstract:
     type: text_default
     label: above
@@ -324,6 +334,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 3
+    region: content
+  search_within_this_collection_link_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
     region: content
 hidden:
   display_media_entity_view_1: true
