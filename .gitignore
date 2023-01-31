@@ -51,7 +51,7 @@ web/modules/contrib/
 web/themes/contrib/
 web/profiles/contrib/
 web/libraries/
-
+codebase/
 # Ignore Drupal's file directory
 web/sites/*/files/
 
