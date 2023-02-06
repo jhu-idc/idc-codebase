@@ -1,26 +1,29 @@
-uuid: 0b0b8272-d705-42e8-993e-64be8f3694a4
+uuid: 6fd5eeca-b4e7-4ef6-aa5b-79290c3d83af
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.footer
   module:
     - context
     - islandora
+    - system
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: 2zRQ41JGreC8-JoiEv5F_wonEn5OFeUMck4DGpYg1Po
-id: idc_ui_theme_boots_footercopyright
+id: footer
 theme: idc_ui_theme_boots
-region: footer_first
-weight: -6
+region: footer_third
+weight: 0
 provider: null
-plugin: 'fixed_block_content:carapace_fb_copyright'
+plugin: 'system_menu_block:footer'
 settings:
-  id: 'fixed_block_content:carapace_fb_copyright'
-  label: 'Footer: Copyright'
+  id: 'system_menu_block:footer'
+  label: Footer
   label_display: '0'
-  provider: core
-  view_mode: ''
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
 visibility:
   context_all:
     id: context_all
