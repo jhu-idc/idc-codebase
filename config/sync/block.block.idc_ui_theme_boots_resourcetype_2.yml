@@ -13,8 +13,8 @@ dependencies:
     - idc_ui_theme_boots
 id: idc_ui_theme_boots_resourcetype_2
 theme: idc_ui_theme_boots
-region: top_header
-weight: -3
+region: sidebar_first
+weight: -10
 provider: null
 plugin: 'facet_block:resource_type_2'
 settings:

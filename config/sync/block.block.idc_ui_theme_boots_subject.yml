@@ -13,8 +13,8 @@ _core:
   default_config_hash: 8CNTurKBSOQZRTrWiaCmfAwseQyzXZOb8gJohUvIBFw
 id: idc_ui_theme_boots_subject
 theme: idc_ui_theme_boots
-region: top_header
-weight: -7
+region: sidebar_first
+weight: -9
 provider: null
 plugin: 'facet_block:subject'
 settings:

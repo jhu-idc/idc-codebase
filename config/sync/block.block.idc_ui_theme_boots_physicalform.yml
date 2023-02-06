@@ -13,8 +13,8 @@ _core:
   default_config_hash: Gb14JbPGc1IX6-hfhZr_EVEg-AUiYnV50EJcfUIIgHc
 id: idc_ui_theme_boots_physicalform
 theme: idc_ui_theme_boots
-region: top_header
-weight: -9
+region: sidebar_first
+weight: -14
 provider: null
 plugin: 'facet_block:physical_form'
 settings:

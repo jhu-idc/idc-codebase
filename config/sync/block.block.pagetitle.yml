@@ -1,6 +1,6 @@
 uuid: 77c1752b-a3e4-4c4f-820b-e9f32f7a5c57
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - context
@@ -43,3 +43,8 @@ visibility:
     negate: false
     context_mapping: {  }
     mimetype: ''
+  view_inclusion:
+    id: view_inclusion
+    negate: false
+    view_inclusion:
+      view-solr_search_content-page_1: view-solr_search_content-page_1

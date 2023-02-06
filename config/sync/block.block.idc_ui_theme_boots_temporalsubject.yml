@@ -13,8 +13,8 @@ _core:
   default_config_hash: 1BMA18tJL_4xlrR2wg5QSmr499p157HBiWAgv_rJmQ4
 id: idc_ui_theme_boots_temporalsubject
 theme: idc_ui_theme_boots
-region: top_header
-weight: -4
+region: sidebar_first
+weight: -11
 provider: null
 plugin: 'facet_block:temporal_subject'
 settings:
