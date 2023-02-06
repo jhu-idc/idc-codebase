@@ -102,7 +102,7 @@
         "drush/drush": "^10.3",
         "islandora-rdm/islandora_fits": "dev-8.x-1.x as 1.x-dev",
         "islandora/controlled_access_terms": "^2",
-        "islandora/islandora": "^2.5",
+        "islandora/islandora": "^2",
         "islandora/openseadragon": "^2",
         "jhu-idc/idc_default_migration": "1.0.0",
         "jhu-idc/idc_ui_theme_boots": "^1.0",
