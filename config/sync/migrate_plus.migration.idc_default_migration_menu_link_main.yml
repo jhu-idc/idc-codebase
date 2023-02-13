@@ -52,6 +52,30 @@ source:
       description: 'Johns Hopkins Applied Physics Laboratory Information and Research Services are available only to APL staff members via APLs intranet.'
       weight: 6
       expanded: 1
+    -
+      id: 7
+      title: 'Help Support'
+      menu_name: footer
+      link: 'https://www.library.jhu.edu/support/'
+      description: 'JHU Sheridan Library Help Support'
+      weight: 1
+      expanded: 1
+    -
+      id: 8
+      title: 'Librarians Staff Directory'
+      menu_name: footer
+      link: 'https://www.library.jhu.edu/directory/'
+      description: 'Librarians Staff Directory'
+      weight: 2
+      expanded: 1
+    -
+      id: 9
+      title: 'Libraries Hours'
+      menu_name: footer
+      link: 'https://www.library.jhu.edu/library-hours/'
+      description: 'Libraries Hours'
+      weight: 3
+      expanded: 1
   ids:
     id:
       type: integer

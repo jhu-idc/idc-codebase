@@ -675,4 +675,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  field_display_hints: true
   field_place_published_country: true

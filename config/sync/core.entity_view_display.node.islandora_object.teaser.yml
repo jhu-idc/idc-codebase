@@ -129,6 +129,7 @@ hidden:
   field_date_modified: true
   field_date_valid: true
   field_dewey_classification: true
+  field_display_hints: true
   field_edition: true
   field_edtf_date: true
   field_edtf_date_created: true
