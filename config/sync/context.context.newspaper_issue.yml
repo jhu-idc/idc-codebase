@@ -1,0 +1,27 @@
+uuid: ea4e08ae-606d-4726-b30d-56fdd5641519
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+label: 'Newspaper Issue'
+name: newspaper_issue
+group: Display
+description: 'Newspaper Issue'
+requireAllConditions: true
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    negate: false
+    uuid: 759841b3-6786-4bfa-8c14-fb13db664635
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uri: 'https://schema.org/PublicationIssue,http://purl.org/dc/dcmitype/Collection'
+    logic: and
+reactions:
+  view_mode_alter:
+    id: view_mode_alter
+    saved: false
+    mode: node.paged
+weight: 0

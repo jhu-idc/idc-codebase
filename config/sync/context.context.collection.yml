@@ -44,6 +44,23 @@ reactions:
         views_label: ''
         items_per_page: none
         third_party_settings: {  }
+      925dee73-f840-41b9-8137-7c1be8347665:
+        uuid: 925dee73-f840-41b9-8137-7c1be8347665
+        id: 'views_block:members-block_1'
+        label: ''
+        provider: views
+        label_display: visible
+        region: content
+        weight: '-10'
+        custom_id: views_block_members_block_1
+        theme: idc_ui_theme_boots
+        css_class: ''
+        unique: 0
+        context_id: collection
+        context_mapping: {  }
+        views_label: ''
+        items_per_page: none
+        third_party_settings: {  }
     include_default_blocks: 1
     saved: false
 weight: 1
