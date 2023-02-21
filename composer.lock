@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60a6c6652fc70f08383245e36d720f84",
+    "content-hash": "571de01d867bc031cfca0a9858240ded",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5754,7 +5754,7 @@
         },
         {
             "name": "jhu-idc/idc_ui_theme_boots",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhu-idc/idc_ui_theme_boots.git",
@@ -13802,7 +13802,8 @@
     "stability-flags": {
         "drupal/flysystem": 15,
         "drupal/rest_oai_pmh": 10,
-        "islandora-rdm/islandora_fits": 20
+        "islandora-rdm/islandora_fits": 20,
+        "jhu-idc/idc_ui_theme_boots": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

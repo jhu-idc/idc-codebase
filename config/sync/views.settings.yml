@@ -1,8 +1,8 @@
 _core:
   default_config_hash: uZHsLrDp1ThO0RvupHKcPzLOyVvWexm58JTTHNDo7yc
 display_extenders:
-  - matomo
-skip_cache: false
+  matomo: matomo
+skip_cache: true
 sql_signature: false
 ui:
   show:
@@ -14,7 +14,7 @@ ui:
     sql_query:
       enabled: false
       where: above
-    display_embed: false
+    display_embed: true
   always_live_preview: true
   exposed_filter_any_label: old_any
 field_rewrite_elements:

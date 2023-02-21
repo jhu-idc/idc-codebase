@@ -42,7 +42,7 @@
             "type": "package",
             "package": {
                 "name": "jhu-idc/idc_ui_theme_boots",
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "type": "drupal-theme",
                 "source": {
                     "type": "git",
@@ -105,7 +105,7 @@
         "islandora/islandora": "^2.5",
         "islandora/openseadragon": "^2",
         "jhu-idc/idc_default_migration": "1.0.0",
-        "jhu-idc/idc_ui_theme_boots": "^1.0",
+        "jhu-idc/idc_ui_theme_boots": "^1@dev",
         "library/pdf.js": "^2.4",
         "maennchen/zipstream-php": "2.2.6",
         "mjordan/islandora_workbench_integration": "^1.0",
