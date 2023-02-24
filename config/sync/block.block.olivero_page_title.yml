@@ -1,4 +1,4 @@
-uuid: ef325eb8-4ff9-4bb5-b758-3e04ebde3c9a
+uuid: 573c8783-5537-40e9-95dd-9f14267ae1da
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: olivero_page_title
 theme: olivero
 region: content_above
-weight: -6
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

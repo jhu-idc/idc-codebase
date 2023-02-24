@@ -1,4 +1,4 @@
-uuid: 8817e701-536b-4b48-9f87-806c782fd49c
+uuid: e2399dfc-fb24-4625-ad8f-6c256b4f9a55
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: olivero_site_branding
 theme: olivero
 region: header
-weight: -12
+weight: 0
 provider: null
 plugin: system_branding_block
 settings:

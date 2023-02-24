@@ -1,4 +1,4 @@
-uuid: 74326bf5-d3c7-431c-ab5d-e0a88bb8392b
+uuid: 852cea8f-a4f9-478e-a4ad-c9df7e20634a
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: olivero_primary_admin_actions
 theme: olivero
 region: highlighted
-weight: -6
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

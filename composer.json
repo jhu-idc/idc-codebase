@@ -1,13 +1,20 @@
 {
     "name": "jhu-idc/idc-codebase",
     "description": "JHU template for Islandora repository.",
+    "authors": [
+        {
+            "name": "Johns Hopkins University Sheridan Libraries",
+            "homepage": "https://library.jhu.edu/"
+        }
+    ],
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://www.islandora.ca",
+    "homepage": "https://digital.library.jhu.edu/",
     "support": {
         "docs": "https://islandora.github.io/documentation/",
         "chat": "https://www.islandora.ca/community#channels-of-communication"
     },
+    "version": "9",
     "repositories": [
         {
             "type": "composer",
@@ -77,15 +84,15 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.1",
         "drupal/block_class": "^2.0",
-        "drupal/core-composer-scaffold": "^9.4",
-        "drupal/core-recommended": "^9.4",
+        "drupal/core-composer-scaffold": "9.4.11",
+        "drupal/core-project-message": "9.4.11",
+        "drupal/core-recommended": "9.4.11",
         "drupal/csv_serialization": "^2.1",
         "drupal/facets": "^2",
         "drupal/field_group": "^3",
         "drupal/field_permissions": "^1",
         "drupal/field_report": "^2.1",
         "drupal/flysystem": "^2.0@alpha",
-        "drupal/hal": "*",
         "drupal/jquery_ui": "^1.6",
         "drupal/jquery_ui_autocomplete": "^2.0",
         "drupal/jquery_ui_menu": "^2.0",
@@ -113,7 +120,7 @@
     },
     "conflict": {
         "drupal/drupal": "*",
-        "drupal/core": "<=8"
+        "drupal/core": "<=9"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
