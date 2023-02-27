@@ -1,6 +1,6 @@
 uuid: b15d832d-10e7-4096-97a9-3de4e77b0ba3
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - idc_ui_theme_boots
