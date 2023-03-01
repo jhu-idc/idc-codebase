@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "545b2920a5360fc567842c95af40f855",
+    "content-hash": "0201855cd5a80007e93913b0142c412a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5744,6 +5744,16 @@
             },
             "require": {
                 "drupal/migrate_plus": "*"
+            },
+            "type": "drupal-module"
+        },
+        {
+            "name": "jhu-idc/idc_ui_module",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jhu-idc/idc_ui_module.git",
+                "reference": "community_version"
             },
             "type": "drupal-module"
         },

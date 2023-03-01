@@ -1,0 +1,19 @@
+uuid: a2529c12-bce0-469b-afde-3fe19d2951cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_collection_contact_name
+    - node.type.collection_object
+id: node.collection_object.field_collection_contact_name
+field_name: field_collection_contact_name
+entity_type: node
+bundle: collection_object
+label: 'Collection Contact Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

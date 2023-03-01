@@ -1,0 +1,29 @@
+uuid: 6f89bc00-8163-4807-86fd-ce71f22acb06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_model
+    - node.type.collection_object
+  content:
+    - 'taxonomy_term:resource_types:349fb422-9590-4239-999b-86c9c2a982e0'
+id: node.collection_object.field_model
+field_name: field_model
+entity_type: node
+bundle: collection_object
+label: Model
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 349fb422-9590-4239-999b-86c9c2a982e0
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: collection_object_models
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

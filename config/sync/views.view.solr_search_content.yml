@@ -292,6 +292,10 @@ display:
           1: AND
       style:
         type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
       row:
         type: search_api
         options:
@@ -333,6 +337,21 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      defaults:
+        header: false
+        footer: false
+      header:
+        result:
+          id: result
+          table: views
+          field: result
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: result
+          empty: false
+          content: 'Displaying results @start - @end of @total'
+      footer: {  }
       exposed_block: true
       display_extenders:
         matomo:

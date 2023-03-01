@@ -48,6 +48,19 @@
         {
             "type": "package",
             "package": {
+                "name": "jhu-idc/idc_ui_module",
+                "version": "1.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/jhu-idc/idc_ui_module.git",
+                    "reference": "community_version"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "jhu-idc/idc_ui_theme_boots",
                 "version": "1.0.1",
                 "type": "drupal-theme",
@@ -112,6 +125,7 @@
         "islandora/islandora": "^2.5",
         "islandora/openseadragon": "^2",
         "jhu-idc/idc_default_migration": "1.0.0",
+        "jhu-idc/idc_ui_module": "1.0.0",
         "jhu-idc/idc_ui_theme_boots": "^1@dev",
         "library/pdf.js": "^2.4",
         "maennchen/zipstream-php": "2.2.6",

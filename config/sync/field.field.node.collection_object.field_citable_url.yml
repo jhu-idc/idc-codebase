@@ -1,0 +1,23 @@
+uuid: 3fc67bdc-d181-4446-bc56-101b06d4497f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_citable_url
+    - node.type.collection_object
+  module:
+    - link
+id: node.collection_object.field_citable_url
+field_name: field_citable_url
+entity_type: node
+bundle: collection_object
+label: 'Citable URL'
+description: 'This is the link that references back to this object in Islandora.  Do not edit. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

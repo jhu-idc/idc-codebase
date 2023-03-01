@@ -1,22 +1,20 @@
-uuid: 1e9cec6b-ff8c-4c79-b8a3-97155dc506ef
+uuid: ebd4e7ab-bffc-47d7-8aca-b5029086859a
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
+    - link
     - node
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: bTNRxi4dh4w5KDrXJWN93blJBmstLhL8T8fm4Euy6Bc
-id: node.field_member_of
-field_name: field_member_of
+id: node.field_finding_aid
+field_name: field_finding_aid
 entity_type: node
-type: entity_reference
-settings:
-  target_type: node
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: -1
 translatable: true
