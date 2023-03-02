@@ -1,12 +1,12 @@
-uuid: 6f89bc00-8163-4807-86fd-ce71f22acb06
+uuid: bc5cdd00-1f00-483a-857c-06a3811f2139
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_model
     - node.type.collection_object
-  content:
-    - 'taxonomy_term:resource_types:349fb422-9590-4239-999b-86c9c2a982e0'
+_core:
+  default_config_hash: pc2DlHC2zOTgpN967efKQazz1M6NBVanCsWT3nRJSFk
 id: node.collection_object.field_model
 field_name: field_model
 entity_type: node

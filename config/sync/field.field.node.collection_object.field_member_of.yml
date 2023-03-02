@@ -1,10 +1,12 @@
-uuid: b617d97a-0f40-4976-a1ee-2d7d6bed630d
+uuid: 7132dcd7-a452-49cc-9826-139f602b5075
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_member_of
     - node.type.collection_object
+_core:
+  default_config_hash: kbozWkotmT8n1bx_7TcZhH6jyNxb3gFF_ypZreJKm1k
 id: node.collection_object.field_member_of
 field_name: field_member_of
 entity_type: node

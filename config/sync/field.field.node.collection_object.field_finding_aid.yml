@@ -1,4 +1,4 @@
-uuid: 6d99eb2b-5834-48a0-8f51-b5739249ac5e
+uuid: 68377b44-b331-48f2-a685-bc3ded7d3b53
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.collection_object
   module:
     - link
+_core:
+  default_config_hash: 2x0YQvHVnjom0qjdJUiCF7od8oprirK3jfHdFixlB2I
 id: node.collection_object.field_finding_aid
 field_name: field_finding_aid
 entity_type: node

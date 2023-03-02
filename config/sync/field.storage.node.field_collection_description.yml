@@ -1,4 +1,4 @@
-uuid: a93a5300-9260-4048-b09f-e95da35c2fe1
+uuid: cfe49f27-62e7-4933-bd57-c6f745ddec2d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: bzevjkNwavTrzIiDATiOhC48oM1SAtsjh_fSM4G3_bM
 id: node.field_collection_description
 field_name: field_collection_description
 entity_type: node

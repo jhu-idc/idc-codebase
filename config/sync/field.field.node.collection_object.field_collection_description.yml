@@ -1,10 +1,12 @@
-uuid: 5b612546-d327-4f6a-9bed-ef92cf1aa849
+uuid: 85a2ecf7-05cd-44e3-9bfb-8e072020e883
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_collection_description
     - node.type.collection_object
+_core:
+  default_config_hash: Ge_KQpvNJckK4tO6gP90fhsnf19ulvcym7CmZ7MTtsI
 id: node.collection_object.field_collection_description
 field_name: field_collection_description
 entity_type: node

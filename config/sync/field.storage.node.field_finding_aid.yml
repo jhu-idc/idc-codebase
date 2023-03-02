@@ -1,4 +1,4 @@
-uuid: ebd4e7ab-bffc-47d7-8aca-b5029086859a
+uuid: cb245b39-6173-4b74-a08a-0b8bd06a558e
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: C2LokuPAAimoon-JS7qCvST9yJuhfTamiySr4Fcd_Wc
 id: node.field_finding_aid
 field_name: field_finding_aid
 entity_type: node

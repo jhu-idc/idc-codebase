@@ -1,4 +1,4 @@
-uuid: c46dedcd-b102-48c2-87a0-e16b91726aad
+uuid: e45e39df-f284-4b57-8374-165d52b8bd90
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: 7PpyMkJxu8JCD4rcvQWXw04AFeDZq0t3ReSIHdgUIpQ
 name: 'Collection Object'
 type: collection_object
 description: ''

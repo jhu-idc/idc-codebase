@@ -1,4 +1,4 @@
-uuid: 6cf72087-aa29-4875-a3c4-f4f3ea80c64b
+uuid: 741b6652-a787-44bd-9409-b26396f64050
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: of_fNoFJfMdLgOB1F-dzdS-4P8Z39ql-6LlI1aZZIoU
 id: node.field_citable_url
 field_name: field_citable_url
 entity_type: node

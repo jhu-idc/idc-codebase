@@ -1,4 +1,4 @@
-uuid: 3fc67bdc-d181-4446-bc56-101b06d4497f
+uuid: 9cc3c089-1976-421d-9fcc-29f847b5de63
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.collection_object
   module:
     - link
+_core:
+  default_config_hash: C8d_td4MhHE02GnIef2gG1swZBM0wRVWav1nwCLjAZc
 id: node.collection_object.field_citable_url
 field_name: field_citable_url
 entity_type: node

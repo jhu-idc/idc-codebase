@@ -1,4 +1,4 @@
-uuid: f16fd7bf-40ef-4da9-8523-f6af7f5102d4
+uuid: 96546394-5345-4ffc-8bdd-b7f65e69d535
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,8 @@ dependencies:
   module:
     - link
     - path
+_core:
+  default_config_hash: BQHftxkRBAIW8Y9j2irDx5vMqEaGW4QWL4OYmQphEsk
 id: node.collection_object.default
 targetEntityType: node
 bundle: collection_object

@@ -1,10 +1,12 @@
-uuid: 73208545-9935-4261-a4a6-47c033b16ade
+uuid: cf2b2d1d-e8b0-42ba-8c7f-5304c9cf48d9
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_collection_number
     - node.type.collection_object
+_core:
+  default_config_hash: OZETM_EBtjPWhoxMPVRXGX_oqUtMZCh_x23sujNdt9Y
 id: node.collection_object.field_collection_number
 field_name: field_collection_number
 entity_type: node

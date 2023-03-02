@@ -1,4 +1,4 @@
-uuid: 69fbe493-85c5-4816-9e68-2d47f6c54036
+uuid: 687b151c-b30e-4097-bc01-5cf09bca1c59
 langcode: en
 status: true
 dependencies:
@@ -16,6 +16,8 @@ dependencies:
     - node.type.collection_object
   module:
     - user
+_core:
+  default_config_hash: wIKqvBgLQ5mXMJYQ2xiJ7EqKALjvXhMUR0Zh55WVIRU
 id: node.collection_object.teaser
 targetEntityType: node
 bundle: collection_object

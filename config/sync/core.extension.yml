@@ -46,7 +46,6 @@ module:
   help: 0
   history: 0
   idc_default_migration: 0
-  idc_ui_module: 0
   image: 0
   islandora: 0
   islandora_advanced_search: 0

@@ -1,10 +1,12 @@
-uuid: a2529c12-bce0-469b-afde-3fe19d2951cc
+uuid: 6d5e19b2-3ee5-4b9c-bf4c-7e9f916f19f5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_collection_contact_name
     - node.type.collection_object
+_core:
+  default_config_hash: kAMV48ltHw0_rNOyNcEMhRBLhkXItI0rof3sfmU3XHo
 id: node.collection_object.field_collection_contact_name
 field_name: field_collection_contact_name
 entity_type: node
