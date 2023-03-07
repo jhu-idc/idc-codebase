@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.islandora_object.field_abstract
     - field.field.node.islandora_object.field_alt_title
+    - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
     - field.field.node.islandora_object.field_coordinates
     - field.field.node.islandora_object.field_coordinates_text
@@ -14,6 +15,7 @@ dependencies:
     - field.field.node.islandora_object.field_date_valid
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
+    - field.field.node.islandora_object.field_display_hints
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
@@ -50,6 +52,7 @@ dependencies:
   module:
     - controlled_access_terms
     - geolocation
+    - link
     - text
     - user
 _core:
@@ -93,6 +96,18 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_citable_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 45
     region: content
   field_classification:
     type: string
