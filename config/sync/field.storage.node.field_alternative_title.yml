@@ -1,4 +1,4 @@
-uuid: 5dd794b8-ca85-445c-ab58-18870790797b
+uuid: 844dc4a0-740f-493a-9f31-28c13db415fe
 langcode: en
 status: true
 dependencies:
@@ -9,20 +9,19 @@ third_party_settings:
   field_permissions:
     permission_type: public
 _core:
-  default_config_hash: QoIpBeU5nucjrjauYwt_aQtMmHHbFjGrdiZ2gdi23BE
-id: node.field_weight
-field_name: field_weight
+  default_config_hash: mFxWELMdWU1M-KfE1fAdzhla2IpqPM0uyIzWeaT8mo4
+id: node.field_alternative_title
+field_name: field_alternative_title
 entity_type: node
-type: integer
+type: string
 settings:
-  unsigned: false
-  size: normal
+  max_length: 5000
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
-indexes:
-  value:
-    - value
+indexes: {  }
 persist_with_no_fields: false
 custom_storage: false

@@ -26,6 +26,7 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  epp: 0
   eva: 0
   facets: 0
   facets_summary: 0
@@ -46,6 +47,7 @@ module:
   help: 0
   history: 0
   idc_default_migration: 0
+  idc_ui_community: 0
   image: 0
   islandora: 0
   islandora_advanced_search: 0
@@ -110,6 +112,7 @@ module:
   view_mode_switch: 0
   views_data_export: 0
   views_ui: 0
+  pathauto: 1
   content_translation: 10
   views: 10
   minimal: 1000

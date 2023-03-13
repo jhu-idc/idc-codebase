@@ -5,12 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.rss
     - core.entity_view_mode.node.teaser
-    - taxonomy.vocabulary.islandora_models
-  content:
-    - 'taxonomy_term:islandora_models:cd3146c8-4325-4fa3-8561-db6c56e20cdf'
+    - node.type.collection_object
   module:
     - node
-    - taxonomy
     - user
 _core:
   default_config_hash: 6eeliKIydPjqyv5V__QqTfahvJMWkHjOVUUuUIdB1ik
@@ -66,8 +63,12 @@ display:
         options:
           perm: 'access content'
       cache:
-        type: tag
-        options: {  }
+        type: time
+        options:
+          results_lifespan: 3600
+          results_lifespan_custom: 0
+          output_lifespan: 3600
+          output_lifespan_custom: 0
       empty:
         area_text_custom:
           id: area_text_custom
@@ -103,38 +104,7 @@ display:
           label: ''
           empty: true
           title: Welcome!
-      sorts:
-        sticky:
-          id: sticky
-          table: node_field_data
-          field: sticky
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: sticky
-          plugin_id: boolean
-          order: DESC
-          expose:
-            label: ''
-            field_identifier: sticky
-          exposed: false
-        created:
-          id: created
-          table: node_field_data
-          field: created
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          order: DESC
-          expose:
-            label: ''
-            field_identifier: created
-          exposed: false
-          granularity: second
+      sorts: {  }
       arguments: {  }
       filters:
         status:
@@ -243,13 +213,13 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
           row_class: ''
           default_row_class: true
           uses_fields: false
       row:
         type: 'entity:node'
         options:
+          relationship: none
           view_mode: teaser
       query:
         type: views_query
@@ -260,8 +230,15 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: fontpage
+      group_by: false
+      show_admin_links: false
+      use_more: false
+      use_more_always: true
+      use_more_text: more
       header: {  }
       footer: {  }
+      hide_attachment_summary: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -318,28 +295,14 @@ display:
           id: status
           table: node_field_data
           field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 1
-          expose:
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-        langcode:
-          id: langcode
-          table: node_field_data
-          field: langcode
           relationship: none
           group_type: group
           admin_label: ''
           entity_type: node
-          entity_field: langcode
-          plugin_id: language
-          operator: in
-          value:
-            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
+          entity_field: status
+          plugin_id: boolean
+          operator: '='
+          value: '1'
           group: 1
           exposed: false
           expose:
@@ -356,7 +319,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            reduce: false
           is_grouped: false
           group_info:
             label: ''
@@ -409,17 +371,19 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-        field_model_target_id:
-          id: field_model_target_id
-          table: node__field_model
-          field: field_model_target_id
+        type:
+          id: type
+          table: node_field_data
+          field: type
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: taxonomy_index_tid
-          operator: or
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          operator: in
           value:
-            - 23
+            collection_object: collection_object
           group: 1
           exposed: false
           expose:
@@ -449,12 +413,6 @@ display:
             default_group: All
             default_group_multiple: {  }
             group_items: {  }
-          reduce_duplicates: false
-          vid: islandora_models
-          type: textfield
-          hierarchy: false
-          limit: true
-          error_message: true
       filter_groups:
         operator: AND
         groups:
@@ -462,6 +420,8 @@ display:
       defaults:
         filters: false
         filter_groups: false
+      display_comment: ''
+      exposed_block: false
       display_extenders:
         matomo:
           enabled: false
@@ -475,12 +435,20 @@ display:
           category_facets: {  }
           category_facets_concat_separator: ', '
       path: node
+      menu:
+        type: none
+        title: ''
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_interface'
         - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

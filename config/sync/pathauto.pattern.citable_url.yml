@@ -1,0 +1,23 @@
+uuid: fc434b0c-522c-4d20-b814-7c2a33b028bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: citable_url
+label: 'Citable URL'
+type: 'canonical_entities:node'
+pattern: 'cite/[node:nid]'
+selection_criteria:
+  495cb5e4-cb04-4543-a92f-5561b0cc90cb:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 495cb5e4-cb04-4543-a92f-5561b0cc90cb
+    context_mapping:
+      node: node
+    bundles:
+      collection_object: collection_object
+      islandora_object: islandora_object
+selection_logic: and
+weight: -5
+relationships: {  }

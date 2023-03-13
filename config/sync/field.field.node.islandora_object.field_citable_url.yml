@@ -1,4 +1,4 @@
-uuid: 746bfffb-1dda-4a85-ac8e-7f32438ba726
+uuid: 1e23ee5d-06d2-453e-b529-50934f1cb221
 langcode: en
 status: true
 dependencies:
@@ -11,10 +11,10 @@ id: node.islandora_object.field_citable_url
 field_name: field_citable_url
 entity_type: node
 bundle: islandora_object
-label: citable_url
+label: 'Citable URL'
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

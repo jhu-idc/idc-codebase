@@ -1,0 +1,109 @@
+uuid: 1c5a88bf-dadd-42a1-8666-6b6dc24a2a43
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.collection_object.field_alternative_title
+    - field.field.node.collection_object.field_collection_contact_email
+    - field.field.node.collection_object.field_collection_contact_name
+    - field.field.node.collection_object.field_collection_number
+    - field.field.node.collection_object.field_description
+    - field.field.node.collection_object.field_featured_item
+    - field.field.node.collection_object.field_finding_aid
+    - field.field.node.collection_object.field_member_of
+    - field.field.node.collection_object.field_model
+    - field.field.node.collection_object.field_unique_id
+    - field.field.node.collection_object.field_weight
+    - node.type.collection_object
+  module:
+    - user
+_core:
+  default_config_hash: mud0t7Nke0Cx1Re571_lTiqPsroupMMG1GgySIBGpFk
+id: node.collection_object.teaser
+targetEntityType: node
+bundle: collection_object
+mode: teaser
+content:
+  display_media_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_entity_view_3:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_original_download:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_thumbnail:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  islandora_fits_checksum:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  links:
+    weight: 100
+    region: content
+  openseadragon_media_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  openseadragon_media_evas_entity_view_2:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  openseadragon_media_evas_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_entity_view_2:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  search_within_this_collection_link_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  field_alternative_title: true
+  field_collection_contact_email: true
+  field_collection_contact_name: true
+  field_collection_number: true
+  field_description: true
+  field_featured_item: true
+  field_finding_aid: true
+  field_member_of: true
+  field_model: true
+  field_unique_id: true
+  field_weight: true
+  langcode: true
+  search_api_excerpt: true
