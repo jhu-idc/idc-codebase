@@ -97,22 +97,19 @@ display:
         options: {  }
       empty: {  }
       sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
+        field_weight_value:
+          id: field_weight_value
+          table: node__field_weight
+          field: field_weight_value
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          entity_field: created
-          plugin_id: date
-          order: DESC
+          plugin_id: standard
+          order: ASC
           expose:
-            label: ''
-            field_identifier: created
+            label: 'Collection Weight (field_weight)'
+            field_identifier: field_weight_value
           exposed: false
-          granularity: second
       arguments: {  }
       filters:
         status:
@@ -492,6 +489,7 @@ display:
     display_plugin: page
     position: 2
     display_options:
+      enabled: false
       title: 'Browse Our Collections'
       filters:
         status:
@@ -690,7 +688,7 @@ display:
     display_plugin: page
     position: 2
     display_options:
-      enabled: false
+      enabled: true
       title: 'All Collections'
       defaults:
         title: false

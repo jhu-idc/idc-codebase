@@ -25,85 +25,60 @@ targetEntityType: node
 bundle: collection_object
 mode: teaser
 content:
-  display_media_entity_view_1:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  display_media_entity_view_3:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  display_media_original_download:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  display_media_service_file:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
   display_media_thumbnail:
     settings: {  }
     third_party_settings: {  }
-    weight: 10
+    weight: 0
     region: content
-  islandora_fits_checksum:
+  field_alternative_title:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_description:
+    type: basic_string
+    label: inline
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 4
+    region: content
+  field_weight:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: false
+    third_party_settings: {  }
+    weight: 3
     region: content
   links:
-    weight: 100
-    region: content
-  openseadragon_media_evas_entity_view_1:
     settings: {  }
     third_party_settings: {  }
-    weight: 10
-    region: content
-  openseadragon_media_evas_entity_view_2:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  openseadragon_media_evas_service_file:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  pdfjs_media_evas_entity_view_1:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  pdfjs_media_evas_entity_view_2:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  pdfjs_media_evas_service_file:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
-    region: content
-  search_within_this_collection_link_entity_view_1:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 10
+    weight: 1
     region: content
 hidden:
-  field_alternative_title: true
+  display_media_entity_view_1: true
+  display_media_entity_view_3: true
+  display_media_original_download: true
+  display_media_service_file: true
   field_collection_contact_email: true
   field_collection_contact_name: true
   field_collection_number: true
-  field_description: true
   field_featured_item: true
   field_finding_aid: true
   field_member_of: true
   field_model: true
   field_unique_id: true
-  field_weight: true
+  islandora_fits_checksum: true
   langcode: true
+  openseadragon_media_evas_entity_view_1: true
+  openseadragon_media_evas_entity_view_2: true
+  openseadragon_media_evas_service_file: true
+  pdfjs_media_evas_entity_view_1: true
+  pdfjs_media_evas_entity_view_2: true
+  pdfjs_media_evas_service_file: true
   search_api_excerpt: true
+  search_within_this_collection_link_entity_view_1: true

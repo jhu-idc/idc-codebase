@@ -2,6 +2,8 @@ uuid: b1f80daf-542a-40ae-8e55-8c5e56d59974
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: rUm7Y2oQpBEgPZqFpJrq84N-qXhWddKZNKulluOtosQ
 id: idc_default_migration_menu_link_main
 class: null
 field_plugin_method: null
