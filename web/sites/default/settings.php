@@ -795,9 +795,10 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-$settings['config_sync_directory'] = '/var/www/drupal/config/sync';
+// $settings['config_sync_directory'] = '/var/www/drupal/config/sync';
 global $content_directories;
-$content_directories["sync"] = "/var/www/drupal/content/sync";
+// $content_directories["sync"] = "/var/www/drupal/content/sync";
+// $settings['file_private_path'] = '/var/www/drupal/web/sites/default/files/private';
 $settings['flysystem']['fedora']['driver'] = 'fedora';
 $settings['flysystem']['fedora']['config']['root'] = 'http://islandora.traefik.me:8081/fcrepo/rest/';
 $settings['reverse_proxy'] = true;
