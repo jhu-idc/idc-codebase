@@ -47,7 +47,6 @@ module:
   help: 0
   history: 0
   idc_default_migration: 0
-  idc_ui_community: 0
   image: 0
   islandora: 0
   islandora_advanced_search: 0
@@ -120,5 +119,4 @@ theme:
   claro: 0
   bootstrap_barrio: 0
   idc_ui_theme_boots: 0
-  olivero: 0
 profile: minimal

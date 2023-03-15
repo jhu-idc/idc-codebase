@@ -795,6 +795,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
+$settings['http_client_config']['timeout'] = 180;
+
 // $settings['config_sync_directory'] = '/var/www/drupal/config/sync';
 global $content_directories;
 // $content_directories["sync"] = "/var/www/drupal/content/sync";
