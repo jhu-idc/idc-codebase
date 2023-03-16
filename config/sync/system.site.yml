@@ -6,7 +6,7 @@ name: 'Johns Hopkins Sheridan Libraries digital collections'
 mail: digital-library@mail395.jh.edu
 slogan: 'A service of the Sheridan Libraries that uses digital technology to collect, preserve, and provide access to unique library research collections as well.'
 page:
-  403: ''
+  403: '/user/login?destination=document.location.pathname'
   404: ''
   front: /front_page
 admin_compact_mode: false

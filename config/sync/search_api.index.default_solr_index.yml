@@ -402,14 +402,17 @@ processor_settings:
       preprocess_query: -4
   edtf_year_only:
     fields:
+      collection_object|field_edtf_date: collection_object|field_edtf_date
+      collection_object|field_edtf_date_created: collection_object|field_edtf_date_created
+      collection_object|field_edtf_date_issued: collection_object|field_edtf_date_issued
       islandora_object|field_copyright_date: islandora_object|field_copyright_date
       islandora_object|field_edtf_date: islandora_object|field_edtf_date
       islandora_object|field_edtf_date_created: islandora_object|field_edtf_date_created
       islandora_object|field_edtf_date_issued: islandora_object|field_edtf_date_issued
     ignore_undated: 1
-    ignore_open_start: 0
+    ignore_open_start: 1
     open_start_year: '0'
-    ignore_open_end: 0
+    ignore_open_end: 1
     open_end_year: ''
   entity_status:
     weights:

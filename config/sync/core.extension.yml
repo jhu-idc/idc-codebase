@@ -26,6 +26,7 @@ module:
   devel: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   epp: 0
   eva: 0
   facets: 0
@@ -43,6 +44,9 @@ module:
   filter: 0
   flysystem: 0
   geolocation: 0
+  gnode: 0
+  group: 0
+  groupmedia: 0
   hal: 0
   help: 0
   history: 0
@@ -108,6 +112,7 @@ module:
   twig_tweak: 0
   update: 0
   user: 0
+  variationcache: 0
   view_mode_switch: 0
   views_data_export: 0
   views_ui: 0

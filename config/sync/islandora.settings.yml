@@ -6,6 +6,7 @@ upload_form_location: ''
 upload_form_allowed_mimetypes: ''
 gemini_url: ''
 gemini_pseudo_bundles:
+  'collection_object:node': 'collection_object:node'
   'islandora_object:node': 'islandora_object:node'
   'audio:media': 'audio:media'
   'file:media': 'file:media'

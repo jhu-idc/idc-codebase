@@ -1,18 +1,18 @@
-uuid: fc434b0c-522c-4d20-b814-7c2a33b028bf
+uuid: 9967d8a2-d30c-4502-bb7c-a4d266bee271
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: citable_url
-label: 'Citable URL'
+id: islandora_content
+label: 'Islandora Content'
 type: 'canonical_entities:node'
-pattern: 'cite/[node:nid]'
+pattern: 'islandora/[node:title]'
 selection_criteria:
-  495cb5e4-cb04-4543-a92f-5561b0cc90cb:
+  ecacb2bf-e5b2-4b3e-80e2-d487efd6c788:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 495cb5e4-cb04-4543-a92f-5561b0cc90cb
+    uuid: ecacb2bf-e5b2-4b3e-80e2-d487efd6c788
     context_mapping:
       node: node
     bundles:

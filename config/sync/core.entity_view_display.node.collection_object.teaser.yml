@@ -8,11 +8,26 @@ dependencies:
     - field.field.node.collection_object.field_collection_contact_email
     - field.field.node.collection_object.field_collection_contact_name
     - field.field.node.collection_object.field_collection_number
+    - field.field.node.collection_object.field_date_captured
+    - field.field.node.collection_object.field_date_modified
+    - field.field.node.collection_object.field_date_valid
     - field.field.node.collection_object.field_description
+    - field.field.node.collection_object.field_display_hints
+    - field.field.node.collection_object.field_edtf_date
+    - field.field.node.collection_object.field_edtf_date_created
+    - field.field.node.collection_object.field_edtf_date_issued
+    - field.field.node.collection_object.field_extent
     - field.field.node.collection_object.field_featured_item
     - field.field.node.collection_object.field_finding_aid
+    - field.field.node.collection_object.field_geographic_subject
+    - field.field.node.collection_object.field_linked_agent
     - field.field.node.collection_object.field_member_of
     - field.field.node.collection_object.field_model
+    - field.field.node.collection_object.field_resource_type
+    - field.field.node.collection_object.field_rights
+    - field.field.node.collection_object.field_subject_general
+    - field.field.node.collection_object.field_subjects_name
+    - field.field.node.collection_object.field_temporal_subject
     - field.field.node.collection_object.field_unique_id
     - field.field.node.collection_object.field_weight
     - node.type.collection_object
@@ -45,6 +60,11 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
+  field_gemini_uri:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
   field_weight:
     type: number_integer
     label: hidden
@@ -67,10 +87,25 @@ hidden:
   field_collection_contact_email: true
   field_collection_contact_name: true
   field_collection_number: true
+  field_date_captured: true
+  field_date_modified: true
+  field_date_valid: true
+  field_display_hints: true
+  field_edtf_date: true
+  field_edtf_date_created: true
+  field_edtf_date_issued: true
+  field_extent: true
   field_featured_item: true
   field_finding_aid: true
+  field_geographic_subject: true
+  field_linked_agent: true
   field_member_of: true
   field_model: true
+  field_resource_type: true
+  field_rights: true
+  field_subject_general: true
+  field_subjects_name: true
+  field_temporal_subject: true
   field_unique_id: true
   islandora_fits_checksum: true
   langcode: true
