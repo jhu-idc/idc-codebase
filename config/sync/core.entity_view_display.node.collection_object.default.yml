@@ -46,17 +46,7 @@ content:
     third_party_settings: {  }
     weight: 30
     region: content
-  display_media_entity_view_3:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 29
-    region: content
   display_media_original_download:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 31
-    region: content
-  display_media_service_file:
     settings: {  }
     third_party_settings: {  }
     weight: 32
@@ -64,7 +54,7 @@ content:
   display_media_thumbnail:
     settings: {  }
     third_party_settings: {  }
-    weight: 33
+    weight: 31
     region: content
   field_alternative_title:
     type: string
@@ -318,23 +308,17 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  openseadragon_media_evas_entity_view_1:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 35
-    region: content
-  openseadragon_media_evas_entity_view_2:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 34
-    region: content
   openseadragon_media_evas_service_file:
     settings: {  }
     third_party_settings: {  }
-    weight: 36
+    weight: 29
     region: content
 hidden:
+  display_media_entity_view_3: true
+  display_media_service_file: true
   langcode: true
+  openseadragon_media_evas_entity_view_1: true
+  openseadragon_media_evas_entity_view_2: true
   pdfjs_media_evas_entity_view_1: true
   pdfjs_media_evas_entity_view_2: true
   pdfjs_media_evas_service_file: true
