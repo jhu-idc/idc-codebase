@@ -207,6 +207,7 @@ display:
           plugin_id: search_api_options
           operator: or
           value:
+            collection_object: collection_object
             islandora_object: islandora_object
           group: 1
           exposed: false

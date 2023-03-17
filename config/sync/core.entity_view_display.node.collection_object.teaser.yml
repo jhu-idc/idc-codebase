@@ -40,7 +40,7 @@ targetEntityType: node
 bundle: collection_object
 mode: teaser
 content:
-  display_media_thumbnail:
+  display_media_entity_view_3:
     settings: {  }
     third_party_settings: {  }
     weight: 0
@@ -51,39 +51,32 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_description:
     type: basic_string
     label: inline
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 5
     region: content
   field_gemini_uri:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 6
     region: content
   field_weight:
-    type: number_integer
+    type: number_unformatted
     label: hidden
-    settings:
-      thousand_separator: ''
-      prefix_suffix: false
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  links:
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 4
     region: content
 hidden:
   display_media_entity_view_1: true
-  display_media_entity_view_3: true
   display_media_original_download: true
   display_media_service_file: true
+  display_media_thumbnail: true
   field_collection_contact_email: true
   field_collection_contact_name: true
   field_collection_number: true
@@ -109,6 +102,7 @@ hidden:
   field_unique_id: true
   islandora_fits_checksum: true
   langcode: true
+  links: true
   openseadragon_media_evas_entity_view_1: true
   openseadragon_media_evas_entity_view_2: true
   openseadragon_media_evas_service_file: true
