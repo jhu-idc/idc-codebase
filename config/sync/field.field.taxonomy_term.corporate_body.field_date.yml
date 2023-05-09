@@ -1,0 +1,26 @@
+uuid: 78890245-b6ca-4be7-96ef-28b526305c75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_date
+    - taxonomy.vocabulary.corporate_body
+  module:
+    - controlled_access_terms
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: taxonomy_term.corporate_body.field_date
+field_name: field_date
+entity_type: taxonomy_term
+bundle: corporate_body
+label: Date
+description: 'A date in <a href="https://www.loc.gov/standards/datetime/" target="_blank">EDTF</a>.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: edtf

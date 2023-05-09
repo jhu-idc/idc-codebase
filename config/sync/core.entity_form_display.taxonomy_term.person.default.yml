@@ -3,11 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.taxonomy_term.person.field_alternate_name
     - field.field.taxonomy_term.person.field_authority_link
     - field.field.taxonomy_term.person.field_cat_date_begin
     - field.field.taxonomy_term.person.field_cat_date_end
+    - field.field.taxonomy_term.person.field_date
+    - field.field.taxonomy_term.person.field_person_alternate_name
+    - field.field.taxonomy_term.person.field_preferred_name_fuller_form
+    - field.field.taxonomy_term.person.field_preferred_name_number
+    - field.field.taxonomy_term.person.field_preferred_name_prefix
+    - field.field.taxonomy_term.person.field_preferred_name_rest
+    - field.field.taxonomy_term.person.field_preferred_name_suffix
+    - field.field.taxonomy_term.person.field_primary_part_of_name
     - field.field.taxonomy_term.person.field_relationships
+    - field.field.taxonomy_term.person.field_unique_id
     - taxonomy.vocabulary.person
   module:
     - controlled_access_terms
@@ -26,14 +34,6 @@ content:
     region: content
     settings:
       rows: 9
-      placeholder: ''
-    third_party_settings: {  }
-  field_alternate_name:
-    type: string_textfield
-    weight: 4
-    region: content
-    settings:
-      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_authority_link:
@@ -62,15 +62,88 @@ content:
       intervals: false
       sets: false
     third_party_settings: {  }
+  field_date:
+    type: edtf_default
+    weight: 19
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
+  field_person_alternate_name:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_name_fuller_form:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_name_number:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_name_prefix:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_name_rest:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_preferred_name_suffix:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_primary_part_of_name:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_relationships:
     type: typed_relation_default
     weight: 9
     region: content
     settings:
       match_operator: CONTAINS
-      size: '60'
+      size: 60
       placeholder: ''
       match_limit: 10
+    third_party_settings: {  }
+  field_unique_id:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

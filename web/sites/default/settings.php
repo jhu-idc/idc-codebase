@@ -817,7 +817,7 @@ $databases['default']['default']['prefix'] = '';
 $databases['default']['default']['driver'] = 'mysql';
 $databases['default']['default']['namespace'] = 'Drupal\\Core\\Database\\Driver\\mysql';
 
-$settings['config_sync_directory'] = '../config/sync';
+$settings['config_sync_directory'] = '/var/www/drupal/config/sync';
 $settings['reverse_proxy_addresses'] = array (
   0 => '192.168.112.2',
 );

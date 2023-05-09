@@ -1,11 +1,9 @@
 uuid: d132066e-1a82-4685-94d0-a93a0a6ad376
 langcode: en
-status: true
+status: false
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_alternate_name
     - field.storage.taxonomy_term.field_authority_link
-    - field.storage.taxonomy_term.field_corp_alt_name
     - field.storage.taxonomy_term.field_external_uri
     - field.storage.taxonomy_term.field_geo_alt_name
   module:
@@ -179,131 +177,6 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: string
-          settings:
-            link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        field_corp_alt_name:
-          id: field_corp_alt_name
-          table: taxonomy_term__field_corp_alt_name
-          field: field_corp_alt_name
-          relationship: none
-          group_type: group
-          admin_label: field_corp_alt_name
-          plugin_id: field
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: false
-          click_sort_column: value
-          type: basic_string
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        field_alternate_name:
-          id: field_alternate_name
-          table: taxonomy_term__field_alternate_name
-          field: field_alternate_name
-          relationship: none
-          group_type: group
-          admin_label: field_alternate_name
-          plugin_id: field
-          label: ''
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: false
           click_sort_column: value
           type: string
           settings:
@@ -1076,9 +949,7 @@ display:
         - url.query_args
         - user.permissions
       tags:
-        - 'config:field.storage.taxonomy_term.field_alternate_name'
         - 'config:field.storage.taxonomy_term.field_authority_link'
-        - 'config:field.storage.taxonomy_term.field_corp_alt_name'
         - 'config:field.storage.taxonomy_term.field_external_uri'
         - 'config:field.storage.taxonomy_term.field_geo_alt_name'
   page_1:
@@ -1118,8 +989,6 @@ display:
         - url.query_args
         - user.permissions
       tags:
-        - 'config:field.storage.taxonomy_term.field_alternate_name'
         - 'config:field.storage.taxonomy_term.field_authority_link'
-        - 'config:field.storage.taxonomy_term.field_corp_alt_name'
         - 'config:field.storage.taxonomy_term.field_external_uri'
         - 'config:field.storage.taxonomy_term.field_geo_alt_name'

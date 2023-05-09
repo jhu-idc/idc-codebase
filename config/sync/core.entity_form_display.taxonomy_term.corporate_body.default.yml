@@ -6,9 +6,15 @@ dependencies:
     - field.field.taxonomy_term.corporate_body.field_authority_link
     - field.field.taxonomy_term.corporate_body.field_cat_date_begin
     - field.field.taxonomy_term.corporate_body.field_cat_date_end
-    - field.field.taxonomy_term.corporate_body.field_corp_alt_name
+    - field.field.taxonomy_term.corporate_body.field_corporate_body_alt_name
+    - field.field.taxonomy_term.corporate_body.field_date
+    - field.field.taxonomy_term.corporate_body.field_date_of_meeting_or_treaty
+    - field.field.taxonomy_term.corporate_body.field_location_of_meeting
+    - field.field.taxonomy_term.corporate_body.field_num_of_section_or_meet
+    - field.field.taxonomy_term.corporate_body.field_primary_name
     - field.field.taxonomy_term.corporate_body.field_relationships
     - field.field.taxonomy_term.corporate_body.field_type
+    - field.field.taxonomy_term.corporate_body.field_unique_id
     - taxonomy.vocabulary.corporate_body
   module:
     - controlled_access_terms
@@ -53,12 +59,54 @@ content:
       strict_dates: false
       intervals: false
     third_party_settings: {  }
-  field_corp_alt_name:
-    type: string_textarea
-    weight: 6
+  field_corporate_body_alt_name:
+    type: string_textfield
+    weight: 101
     region: content
     settings:
-      rows: 5
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_date:
+    type: edtf_default
+    weight: 106
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
+  field_date_of_meeting_or_treaty:
+    type: edtf_default
+    weight: 102
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
+  field_location_of_meeting:
+    type: string_textfield
+    weight: 103
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_num_of_section_or_meet:
+    type: string_textfield
+    weight: 104
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_primary_name:
+    type: string_textfield
+    weight: 105
+    region: content
+    settings:
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_relationships:
@@ -67,7 +115,7 @@ content:
     region: content
     settings:
       match_operator: CONTAINS
-      size: '60'
+      size: 60
       placeholder: ''
     third_party_settings: {  }
   field_type:
@@ -75,6 +123,14 @@ content:
     weight: 1
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_unique_id:
+    type: string_textfield
+    weight: 107
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

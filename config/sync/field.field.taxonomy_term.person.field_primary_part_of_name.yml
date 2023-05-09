@@ -1,0 +1,25 @@
+uuid: 87d1c76c-c194-40bb-86db-8291caaf0ee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_primary_part_of_name
+    - taxonomy.vocabulary.person
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: taxonomy_term.person.field_primary_part_of_name
+field_name: field_primary_part_of_name
+entity_type: taxonomy_term
+bundle: person
+label: 'Person Preferred Name: Primary Part of Name'
+description: 'The primary part of a name form (e.g. a last name or surname of a person). Listed first in the 100 $a subfield in MARC.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
