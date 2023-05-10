@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.taxonomy_term.subject.field_authority_link
+    - field.field.taxonomy_term.subject.field_unique_id
     - taxonomy.vocabulary.subject
   module:
     - controlled_access_terms
@@ -32,6 +33,14 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_unique_id:
+    type: string_textfield
+    weight: 124
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

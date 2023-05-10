@@ -13,6 +13,7 @@ dependencies:
     - field.field.taxonomy_term.corporate_body.field_num_of_section_or_meet
     - field.field.taxonomy_term.corporate_body.field_primary_name
     - field.field.taxonomy_term.corporate_body.field_relationships
+    - field.field.taxonomy_term.corporate_body.field_subordinate_name
     - field.field.taxonomy_term.corporate_body.field_type
     - field.field.taxonomy_term.corporate_body.field_unique_id
     - taxonomy.vocabulary.corporate_body
@@ -131,6 +132,14 @@ content:
       link: true
     third_party_settings: {  }
     weight: 7
+    region: content
+  field_subordinate_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 15
     region: content
   field_type:
     type: list_default
