@@ -1,24 +1,23 @@
-uuid: 116f48c8-df9c-40fc-9d75-13458605caeb
+uuid: 34c8b3c7-a241-46d7-8cb9-8c17a8f0e46c
 langcode: en
 status: true
 dependencies:
   module:
+    - controlled_access_terms
     - field_permissions
     - node
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: 4Ll_F8uhh6PS16H0KIbmlEFXAxFrX5lOq6BXuuoPX0g
-id: node.field_collection_number
-field_name: field_collection_number
+id: node.field_date_published
+field_name: field_date_published
 entity_type: node
-type: string
+type: edtf
 settings:
-  max_length: 255
+  max_length: 128
   case_sensitive: false
   is_ascii: false
-module: core
+module: controlled_access_terms
 locked: false
 cardinality: -1
 translatable: true

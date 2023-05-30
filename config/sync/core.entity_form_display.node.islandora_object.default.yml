@@ -7,28 +7,48 @@ dependencies:
     - field.field.node.islandora_object.field_alt_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
+    - field.field.node.islandora_object.field_collection_number
+    - field.field.node.islandora_object.field_contributor
     - field.field.node.islandora_object.field_coordinates
     - field.field.node.islandora_object.field_coordinates_text
+    - field.field.node.islandora_object.field_copyright_and_use
     - field.field.node.islandora_object.field_copyright_date
+    - field.field.node.islandora_object.field_copyright_holder
+    - field.field.node.islandora_object.field_creator
+    - field.field.node.islandora_object.field_date_available
     - field.field.node.islandora_object.field_date_captured
+    - field.field.node.islandora_object.field_date_copyrighted
     - field.field.node.islandora_object.field_date_modified
+    - field.field.node.islandora_object.field_date_published
     - field.field.node.islandora_object.field_date_valid
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
+    - field.field.node.islandora_object.field_digital_identifier
+    - field.field.node.islandora_object.field_digital_publisher
     - field.field.node.islandora_object.field_display_hints
+    - field.field.node.islandora_object.field_dspace_identifier
+    - field.field.node.islandora_object.field_dspace_item_id
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
     - field.field.node.islandora_object.field_edtf_date_issued
     - field.field.node.islandora_object.field_extent
+    - field.field.node.islandora_object.field_featured_item
+    - field.field.node.islandora_object.field_finding_aid
     - field.field.node.islandora_object.field_frequency
     - field.field.node.islandora_object.field_full_title
     - field.field.node.islandora_object.field_genre
     - field.field.node.islandora_object.field_geographic_subject
+    - field.field.node.islandora_object.field_geoportal_link
     - field.field.node.islandora_object.field_identifier
+    - field.field.node.islandora_object.field_is_part_of
     - field.field.node.islandora_object.field_isbn
+    - field.field.node.islandora_object.field_issn
+    - field.field.node.islandora_object.field_item_barcode
+    - field.field.node.islandora_object.field_jhir
     - field.field.node.islandora_object.field_language
     - field.field.node.islandora_object.field_lcc_classification
+    - field.field.node.islandora_object.field_library_catalog_link
     - field.field.node.islandora_object.field_linked_agent
     - field.field.node.islandora_object.field_local_identifier
     - field.field.node.islandora_object.field_member_of
@@ -40,14 +60,19 @@ dependencies:
     - field.field.node.islandora_object.field_pid
     - field.field.node.islandora_object.field_place_published
     - field.field.node.islandora_object.field_place_published_country
+    - field.field.node.islandora_object.field_publisher
+    - field.field.node.islandora_object.field_publisher_country
     - field.field.node.islandora_object.field_resource_type
     - field.field.node.islandora_object.field_rights
+    - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_subject_general
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
+    - field.field.node.islandora_object.field_unique_id
     - field.field.node.islandora_object.field_weight
+    - field.field.node.islandora_object.field_years
     - node.type.islandora_object
   module:
     - controlled_access_terms
@@ -292,6 +317,24 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_collection_number:
+    type: string_textfield
+    weight: 47
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_contributor:
+    type: typed_relation_default
+    weight: 48
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
   field_coordinates:
     type: geolocation_latlng
     weight: 23
@@ -306,9 +349,48 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_copyright_and_use:
+    type: entity_reference_autocomplete
+    weight: 49
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_copyright_date:
     type: edtf_default
     weight: 14
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
+  field_copyright_holder:
+    type: entity_reference_autocomplete
+    weight: 50
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_creator:
+    type: typed_relation_default
+    weight: 51
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+  field_date_available:
+    type: edtf_default
+    weight: 52
     region: content
     settings:
       strict_dates: false
@@ -324,9 +406,27 @@ content:
       intervals: true
       sets: false
     third_party_settings: {  }
+  field_date_copyrighted:
+    type: edtf_default
+    weight: 53
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
   field_date_modified:
     type: edtf_default
     weight: 18
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
+    third_party_settings: {  }
+  field_date_published:
+    type: edtf_default
+    weight: 54
     region: content
     settings:
       strict_dates: false
@@ -353,6 +453,40 @@ content:
   field_dewey_classification:
     type: string_textfield
     weight: 24
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_digital_identifier:
+    type: string_textfield
+    weight: 55
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_digital_publisher:
+    type: entity_reference_autocomplete
+    weight: 56
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_dspace_identifier:
+    type: link_default
+    weight: 57
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_dspace_item_id:
+    type: string_textfield
+    weight: 58
     region: content
     settings:
       size: 60
@@ -401,6 +535,21 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_featured_item:
+    type: boolean_checkbox
+    weight: 59
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_finding_aid:
+    type: link_default
+    weight: 60
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_frequency:
     type: entity_reference_autocomplete
     weight: 32
@@ -439,6 +588,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_geoportal_link:
+    type: link_default
+    weight: 61
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_identifier:
     type: string_textfield
     weight: 18
@@ -447,6 +604,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_is_part_of:
+    type: link_default
+    weight: 62
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
   field_isbn:
     type: string_textfield
     weight: 19
@@ -454,6 +619,30 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_issn:
+    type: string_textfield
+    weight: 63
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_item_barcode:
+    type: string_textfield
+    weight: 64
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_jhir:
+    type: link_default
+    weight: 65
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_language:
     type: entity_reference_autocomplete
@@ -472,6 +661,14 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_library_catalog_link:
+    type: link_default
+    weight: 66
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_linked_agent:
     type: typed_relation_default
@@ -559,6 +756,26 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_publisher:
+    type: entity_reference_autocomplete
+    weight: 67
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_publisher_country:
+    type: entity_reference_autocomplete
+    weight: 68
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_resource_type:
     type: options_select
     weight: 13
@@ -570,6 +787,16 @@ content:
     weight: 22
     region: content
     settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_spatial_coverage:
+    type: entity_reference_autocomplete
+    weight: 69
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
@@ -621,12 +848,29 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_unique_id:
+    type: string_textfield
+    weight: 70
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_weight:
     type: number
     weight: 38
     region: content
     settings:
       placeholder: ''
+    third_party_settings: {  }
+  field_years:
+    type: edtf_default
+    weight: 71
+    region: content
+    settings:
+      strict_dates: false
+      intervals: true
+      sets: false
     third_party_settings: {  }
   langcode:
     type: language_select

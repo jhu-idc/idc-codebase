@@ -8,28 +8,48 @@ dependencies:
     - field.field.node.islandora_object.field_alt_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
+    - field.field.node.islandora_object.field_collection_number
+    - field.field.node.islandora_object.field_contributor
     - field.field.node.islandora_object.field_coordinates
     - field.field.node.islandora_object.field_coordinates_text
+    - field.field.node.islandora_object.field_copyright_and_use
     - field.field.node.islandora_object.field_copyright_date
+    - field.field.node.islandora_object.field_copyright_holder
+    - field.field.node.islandora_object.field_creator
+    - field.field.node.islandora_object.field_date_available
     - field.field.node.islandora_object.field_date_captured
+    - field.field.node.islandora_object.field_date_copyrighted
     - field.field.node.islandora_object.field_date_modified
+    - field.field.node.islandora_object.field_date_published
     - field.field.node.islandora_object.field_date_valid
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
+    - field.field.node.islandora_object.field_digital_identifier
+    - field.field.node.islandora_object.field_digital_publisher
     - field.field.node.islandora_object.field_display_hints
+    - field.field.node.islandora_object.field_dspace_identifier
+    - field.field.node.islandora_object.field_dspace_item_id
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
     - field.field.node.islandora_object.field_edtf_date_issued
     - field.field.node.islandora_object.field_extent
+    - field.field.node.islandora_object.field_featured_item
+    - field.field.node.islandora_object.field_finding_aid
     - field.field.node.islandora_object.field_frequency
     - field.field.node.islandora_object.field_full_title
     - field.field.node.islandora_object.field_genre
     - field.field.node.islandora_object.field_geographic_subject
+    - field.field.node.islandora_object.field_geoportal_link
     - field.field.node.islandora_object.field_identifier
+    - field.field.node.islandora_object.field_is_part_of
     - field.field.node.islandora_object.field_isbn
+    - field.field.node.islandora_object.field_issn
+    - field.field.node.islandora_object.field_item_barcode
+    - field.field.node.islandora_object.field_jhir
     - field.field.node.islandora_object.field_language
     - field.field.node.islandora_object.field_lcc_classification
+    - field.field.node.islandora_object.field_library_catalog_link
     - field.field.node.islandora_object.field_linked_agent
     - field.field.node.islandora_object.field_local_identifier
     - field.field.node.islandora_object.field_member_of
@@ -41,14 +61,19 @@ dependencies:
     - field.field.node.islandora_object.field_pid
     - field.field.node.islandora_object.field_place_published
     - field.field.node.islandora_object.field_place_published_country
+    - field.field.node.islandora_object.field_publisher
+    - field.field.node.islandora_object.field_publisher_country
     - field.field.node.islandora_object.field_resource_type
     - field.field.node.islandora_object.field_rights
+    - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_subject_general
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
+    - field.field.node.islandora_object.field_unique_id
     - field.field.node.islandora_object.field_weight
+    - field.field.node.islandora_object.field_years
     - node.type.islandora_object
   module:
     - controlled_access_terms
@@ -125,28 +150,48 @@ hidden:
   field_alt_title: true
   field_citable_url: true
   field_classification: true
+  field_collection_number: true
+  field_contributor: true
   field_coordinates: true
   field_coordinates_text: true
+  field_copyright_and_use: true
   field_copyright_date: true
+  field_copyright_holder: true
+  field_creator: true
+  field_date_available: true
   field_date_captured: true
+  field_date_copyrighted: true
   field_date_modified: true
+  field_date_published: true
   field_date_valid: true
   field_dewey_classification: true
+  field_digital_identifier: true
+  field_digital_publisher: true
   field_display_hints: true
+  field_dspace_identifier: true
+  field_dspace_item_id: true
   field_edition: true
   field_edtf_date: true
   field_edtf_date_created: true
   field_edtf_date_issued: true
   field_extent: true
+  field_featured_item: true
+  field_finding_aid: true
   field_frequency: true
   field_full_title: true
   field_gemini_uri: true
   field_genre: true
   field_geographic_subject: true
+  field_geoportal_link: true
   field_identifier: true
+  field_is_part_of: true
   field_isbn: true
+  field_issn: true
+  field_item_barcode: true
+  field_jhir: true
   field_language: true
   field_lcc_classification: true
+  field_library_catalog_link: true
   field_local_identifier: true
   field_mode_of_issuance: true
   field_note: true
@@ -155,14 +200,19 @@ hidden:
   field_pid: true
   field_place_published: true
   field_place_published_country: true
+  field_publisher: true
+  field_publisher_country: true
   field_resource_type: true
   field_rights: true
+  field_spatial_coverage: true
   field_subject: true
   field_subject_general: true
   field_subjects_name: true
   field_table_of_contents: true
   field_temporal_subject: true
+  field_unique_id: true
   field_weight: true
+  field_years: true
   langcode: true
   members_eva_entity_view_1: true
   openseadragon_media_evas_entity_view_1: true

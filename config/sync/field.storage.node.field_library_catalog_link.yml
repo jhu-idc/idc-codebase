@@ -1,24 +1,20 @@
-uuid: 116f48c8-df9c-40fc-9d75-13458605caeb
+uuid: d47c1f24-8650-4d7a-a17d-18558b86b3e4
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
+    - link
     - node
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: 4Ll_F8uhh6PS16H0KIbmlEFXAxFrX5lOq6BXuuoPX0g
-id: node.field_collection_number
-field_name: field_collection_number
+id: node.field_library_catalog_link
+field_name: field_library_catalog_link
 entity_type: node
-type: string
-settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: -1
 translatable: true

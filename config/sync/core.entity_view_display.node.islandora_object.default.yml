@@ -7,28 +7,48 @@ dependencies:
     - field.field.node.islandora_object.field_alt_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
+    - field.field.node.islandora_object.field_collection_number
+    - field.field.node.islandora_object.field_contributor
     - field.field.node.islandora_object.field_coordinates
     - field.field.node.islandora_object.field_coordinates_text
+    - field.field.node.islandora_object.field_copyright_and_use
     - field.field.node.islandora_object.field_copyright_date
+    - field.field.node.islandora_object.field_copyright_holder
+    - field.field.node.islandora_object.field_creator
+    - field.field.node.islandora_object.field_date_available
     - field.field.node.islandora_object.field_date_captured
+    - field.field.node.islandora_object.field_date_copyrighted
     - field.field.node.islandora_object.field_date_modified
+    - field.field.node.islandora_object.field_date_published
     - field.field.node.islandora_object.field_date_valid
     - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_dewey_classification
+    - field.field.node.islandora_object.field_digital_identifier
+    - field.field.node.islandora_object.field_digital_publisher
     - field.field.node.islandora_object.field_display_hints
+    - field.field.node.islandora_object.field_dspace_identifier
+    - field.field.node.islandora_object.field_dspace_item_id
     - field.field.node.islandora_object.field_edition
     - field.field.node.islandora_object.field_edtf_date
     - field.field.node.islandora_object.field_edtf_date_created
     - field.field.node.islandora_object.field_edtf_date_issued
     - field.field.node.islandora_object.field_extent
+    - field.field.node.islandora_object.field_featured_item
+    - field.field.node.islandora_object.field_finding_aid
     - field.field.node.islandora_object.field_frequency
     - field.field.node.islandora_object.field_full_title
     - field.field.node.islandora_object.field_genre
     - field.field.node.islandora_object.field_geographic_subject
+    - field.field.node.islandora_object.field_geoportal_link
     - field.field.node.islandora_object.field_identifier
+    - field.field.node.islandora_object.field_is_part_of
     - field.field.node.islandora_object.field_isbn
+    - field.field.node.islandora_object.field_issn
+    - field.field.node.islandora_object.field_item_barcode
+    - field.field.node.islandora_object.field_jhir
     - field.field.node.islandora_object.field_language
     - field.field.node.islandora_object.field_lcc_classification
+    - field.field.node.islandora_object.field_library_catalog_link
     - field.field.node.islandora_object.field_linked_agent
     - field.field.node.islandora_object.field_local_identifier
     - field.field.node.islandora_object.field_member_of
@@ -40,14 +60,19 @@ dependencies:
     - field.field.node.islandora_object.field_pid
     - field.field.node.islandora_object.field_place_published
     - field.field.node.islandora_object.field_place_published_country
+    - field.field.node.islandora_object.field_publisher
+    - field.field.node.islandora_object.field_publisher_country
     - field.field.node.islandora_object.field_resource_type
     - field.field.node.islandora_object.field_rights
+    - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_subject_general
     - field.field.node.islandora_object.field_subjects_name
     - field.field.node.islandora_object.field_table_of_contents
     - field.field.node.islandora_object.field_temporal_subject
+    - field.field.node.islandora_object.field_unique_id
     - field.field.node.islandora_object.field_weight
+    - field.field.node.islandora_object.field_years
     - node.type.islandora_object
   module:
     - controlled_access_terms
@@ -117,6 +142,22 @@ content:
     third_party_settings: {  }
     weight: 36
     region: content
+  field_collection_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 46
+    region: content
+  field_contributor:
+    type: typed_relation_default
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 47
+    region: content
   field_coordinates:
     type: geolocation_latlng
     label: above
@@ -132,6 +173,14 @@ content:
     third_party_settings: {  }
     weight: 33
     region: content
+  field_copyright_and_use:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 48
+    region: content
   field_copyright_date:
     type: edtf_default
     label: above
@@ -143,6 +192,34 @@ content:
       year_format: 'y'
     third_party_settings: {  }
     weight: 11
+    region: content
+  field_copyright_holder:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 49
+    region: content
+  field_creator:
+    type: typed_relation_default
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 50
+    region: content
+  field_date_available:
+    type: edtf_default
+    label: above
+    settings:
+      date_separator: dash
+      date_order: big_endian
+      month_format: mm
+      day_format: dd
+      year_format: 'y'
+    third_party_settings: {  }
+    weight: 51
     region: content
   field_date_captured:
     type: edtf_default
@@ -156,6 +233,18 @@ content:
     third_party_settings: {  }
     weight: 13
     region: content
+  field_date_copyrighted:
+    type: edtf_default
+    label: above
+    settings:
+      date_separator: dash
+      date_order: big_endian
+      month_format: mm
+      day_format: dd
+      year_format: 'y'
+    third_party_settings: {  }
+    weight: 52
+    region: content
   field_date_modified:
     type: edtf_default
     label: above
@@ -167,6 +256,18 @@ content:
       year_format: 'y'
     third_party_settings: {  }
     weight: 14
+    region: content
+  field_date_published:
+    type: edtf_default
+    label: above
+    settings:
+      date_separator: dash
+      date_order: big_endian
+      month_format: mm
+      day_format: dd
+      year_format: 'y'
+    third_party_settings: {  }
+    weight: 53
     region: content
   field_date_valid:
     type: edtf_default
@@ -194,6 +295,42 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 34
+    region: content
+  field_digital_identifier:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 54
+    region: content
+  field_digital_publisher:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 55
+    region: content
+  field_dspace_identifier:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 56
+    region: content
+  field_dspace_item_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 57
     region: content
   field_edition:
     type: string
@@ -247,6 +384,28 @@ content:
     third_party_settings: {  }
     weight: 26
     region: content
+  field_featured_item:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 58
+    region: content
+  field_finding_aid:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 59
+    region: content
   field_frequency:
     type: entity_reference_label
     label: above
@@ -283,6 +442,18 @@ content:
     third_party_settings: {  }
     weight: 29
     region: content
+  field_geoportal_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 60
+    region: content
   field_identifier:
     type: string
     label: above
@@ -291,6 +462,18 @@ content:
     third_party_settings: {  }
     weight: 37
     region: content
+  field_is_part_of:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 61
+    region: content
   field_isbn:
     type: string
     label: above
@@ -298,6 +481,34 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 38
+    region: content
+  field_issn:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 62
+    region: content
+  field_item_barcode:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 63
+    region: content
+  field_jhir:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 64
     region: content
   field_language:
     type: entity_reference_label
@@ -314,6 +525,18 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 35
+    region: content
+  field_library_catalog_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 65
     region: content
   field_linked_agent:
     type: typed_relation_default
@@ -378,6 +601,22 @@ content:
     third_party_settings: {  }
     weight: 6
     region: content
+  field_publisher:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 66
+    region: content
+  field_publisher_country:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 67
+    region: content
   field_resource_type:
     type: entity_reference_label
     label: above
@@ -393,6 +632,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 41
+    region: content
+  field_spatial_coverage:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 68
     region: content
   field_subject:
     type: entity_reference_label
@@ -432,6 +679,26 @@ content:
       link: true
     third_party_settings: {  }
     weight: 31
+    region: content
+  field_unique_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 69
+    region: content
+  field_years:
+    type: edtf_default
+    label: above
+    settings:
+      date_separator: dash
+      date_order: big_endian
+      month_format: mm
+      day_format: dd
+      year_format: 'y'
+    third_party_settings: {  }
+    weight: 70
     region: content
   links:
     settings: {  }

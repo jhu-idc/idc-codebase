@@ -1,0 +1,27 @@
+uuid: 70b8cd72-043e-4869-b4d2-dbd322e77683
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unique_id
+    - node.type.islandora_object
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: node.islandora_object.field_unique_id
+field_name: field_unique_id
+entity_type: node
+bundle: islandora_object
+label: 'Unique ID'
+description: 'This is the system''s unique identifier for this field.  Generally this should not be edited. '
+required: true
+translatable: false
+default_value:
+  -
+    value: 999ae88d-7b22-4d9f-92b5-6f98f0ec8210
+default_value_callback: ''
+settings: {  }
+field_type: string

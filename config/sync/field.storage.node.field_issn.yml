@@ -1,4 +1,4 @@
-uuid: 116f48c8-df9c-40fc-9d75-13458605caeb
+uuid: c8ce91c4-3f67-47e9-8c11-20ba066d265f
 langcode: en
 status: true
 dependencies:
@@ -8,19 +8,17 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: 4Ll_F8uhh6PS16H0KIbmlEFXAxFrX5lOq6BXuuoPX0g
-id: node.field_collection_number
-field_name: field_collection_number
+id: node.field_issn
+field_name: field_issn
 entity_type: node
 type: string
 settings:
-  max_length: 255
+  max_length: 64
   case_sensitive: false
   is_ascii: false
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
