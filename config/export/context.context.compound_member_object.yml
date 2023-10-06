@@ -1,0 +1,13 @@
+uuid: 8582a828-8b99-458d-ad14-5a1838230c26
+langcode: en
+status: true
+dependencies: {  }
+label: 'Compound member object'
+name: compound_member_object
+group: Display
+description: 'Compound member object'
+requireAllConditions: true
+disabled: false
+conditions: {  }
+reactions: {  }
+weight: 0

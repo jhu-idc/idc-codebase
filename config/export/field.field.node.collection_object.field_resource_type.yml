@@ -1,0 +1,39 @@
+uuid: bd9bdcf3-28a4-41d5-9335-df2538aa02e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_type
+    - node.type.collection_object
+    - taxonomy.vocabulary.resource_types
+  content:
+    - 'taxonomy_term:resource_types:63178ab8-7b32-42b5-aa0a-ace431321e34'
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.collection_object.field_resource_type
+field_name: field_resource_type
+entity_type: node
+bundle: collection_object
+label: Type
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 63178ab8-7b32-42b5-aa0a-ace431321e34
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      resource_types: resource_types
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

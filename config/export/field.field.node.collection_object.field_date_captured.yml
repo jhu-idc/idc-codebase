@@ -1,0 +1,26 @@
+uuid: 1e95a4ca-c4ef-494d-880d-0e1abcf89dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_captured
+    - node.type.collection_object
+  module:
+    - controlled_access_terms
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.collection_object.field_date_captured
+field_name: field_date_captured
+entity_type: node
+bundle: collection_object
+label: 'Date Captured'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: edtf

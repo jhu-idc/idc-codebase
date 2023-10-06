@@ -1,0 +1,25 @@
+uuid: 43c6834b-a97c-4402-acc6-329f748c7a64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_location_of_meeting
+    - taxonomy.vocabulary.corporate_body
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: taxonomy_term.corporate_body.field_location_of_meeting
+field_name: field_location_of_meeting
+entity_type: taxonomy_term
+bundle: corporate_body
+label: 'Corporate Name: Location Of Meeting'
+description: 'The location of the meeting or treaty, given as City, State or City, Country. Corresponds to subfield c in MARC 110 field.  Example: Baltimore, Md.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

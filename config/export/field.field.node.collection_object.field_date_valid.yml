@@ -1,0 +1,26 @@
+uuid: 1088ff32-c6af-4e81-96f6-e976a7695146
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_valid
+    - node.type.collection_object
+  module:
+    - controlled_access_terms
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.collection_object.field_date_valid
+field_name: field_date_valid
+entity_type: node
+bundle: collection_object
+label: 'Date Valid'
+description: 'Date (often a range) of validity of a resource.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: edtf

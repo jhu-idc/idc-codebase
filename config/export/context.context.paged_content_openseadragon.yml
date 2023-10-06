@@ -1,0 +1,29 @@
+uuid: b8eca5eb-5d17-4a1d-8809-e72c645c4a7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+label: 'Paged Content - Openseadragon'
+name: paged_content_openseadragon
+group: Display
+description: 'Display a block for Paged Content'
+requireAllConditions: false
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    negate: false
+    uuid: 49390c36-e529-41ec-9ff5-105c7b992326
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uri: 'http://openseadragon.github.io,https://schema.org/Book'
+    logic: and
+reactions:
+  blocks:
+    id: blocks
+    uuid: c9658346-1109-4738-9fe1-9edeaad42cb8
+    blocks: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0

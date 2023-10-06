@@ -1,0 +1,26 @@
+uuid: e9d691a2-2c2e-4236-a69b-71b3dbcd23b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_edtf_date_issued
+    - node.type.collection_object
+  module:
+    - controlled_access_terms
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.collection_object.field_edtf_date_issued
+field_name: field_edtf_date_issued
+entity_type: node
+bundle: collection_object
+label: 'Date Issued'
+description: 'Date of formal issuance of the resource. This includes publication dates.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: edtf

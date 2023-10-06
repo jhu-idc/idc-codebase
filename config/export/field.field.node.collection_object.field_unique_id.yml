@@ -1,0 +1,29 @@
+uuid: ca83e01a-0ed6-44b9-b3c5-b4ad5ee7c725
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unique_id
+    - node.type.collection_object
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+_core:
+  default_config_hash: BOLtvOMucTdMeFs-g-t_8fqCdG4joQwDLwq_ltm21bY
+id: node.collection_object.field_unique_id
+field_name: field_unique_id
+entity_type: node
+bundle: collection_object
+label: 'Unique ID'
+description: 'This is the system''s unique identifier for this field. Generally, this should not be edited.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1ae7f8b2-eaaa-4764-a602-b6d355985e83
+default_value_callback: ''
+settings: {  }
+field_type: string

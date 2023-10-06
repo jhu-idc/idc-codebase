@@ -1,0 +1,10 @@
+uuid: 1289cd6a-2c26-496d-bac6-1e8dc47c088e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.compound
+label: Compound
+targetEntityType: node
+cache: true

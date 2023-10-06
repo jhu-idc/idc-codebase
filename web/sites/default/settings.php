@@ -821,3 +821,27 @@ $settings['config_sync_directory'] = '/var/www/drupal/config/sync';
 $settings['reverse_proxy_addresses'] = array (
   0 => '192.168.112.2',
 );
+$settings['reverse_proxy_addresses'] = array (
+  0 => '172.25.0.2',
+);
+$settings['reverse_proxy_addresses'] = array (
+  0 => '172.27.0.3',
+);
+$settings['reverse_proxy_addresses'] = array (
+  0 => '172.29.0.2',
+);
+$settings['reverse_proxy_addresses'] = array (
+  0 => '172.31.0.3',
+);
+
+$settings['reverse_proxy_addresses'] = array (
+  0 => '192.168.16.3',
+);
+
+$settings['config_sync_directory'] = '../config/sync';
+$settings['reverse_proxy_addresses'] = array (
+  0 => '192.168.240.2',
+);
+$settings['reverse_proxy_addresses'] = array (
+  0 => '192.168.240.2',
+);

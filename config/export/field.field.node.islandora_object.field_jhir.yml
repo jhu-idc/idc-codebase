@@ -1,0 +1,28 @@
+uuid: 7b3a4526-17e8-4dfb-a924-da484fd0b66a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jhir
+    - node.type.islandora_object
+  module:
+    - epp
+    - link
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.islandora_object.field_jhir
+field_name: field_jhir
+entity_type: node
+bundle: islandora_object
+label: JHIR
+description: '<b>Optional.</b> Record a legacy item''s citable URI from DSpace.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

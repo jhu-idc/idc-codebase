@@ -1,0 +1,27 @@
+uuid: ecd8c8b2-58e7-425f-a493-10c85ed28fdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+label: 'Book or Page'
+name: book_or_page
+group: Display
+description: 'parent of pages'
+requireAllConditions: false
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    negate: false
+    uuid: cd223e50-0f6d-4e66-8a34-1e149789308a
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uri: 'https://schema.org/Book,http://purl.org/dc/dcmitype/Collection'
+    logic: and
+reactions:
+  view_mode_alter:
+    id: view_mode_alter
+    saved: false
+    mode: node.paged
+weight: 0

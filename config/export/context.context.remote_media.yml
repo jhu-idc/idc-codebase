@@ -1,0 +1,13 @@
+uuid: bb713ec8-4ee3-461b-bb0d-e69619e55a86
+langcode: en
+status: true
+dependencies: {  }
+label: 'Remote Media'
+name: remote_media
+group: Display
+description: 'Displays remote video or audio'
+requireAllConditions: false
+disabled: false
+conditions: {  }
+reactions: {  }
+weight: 0

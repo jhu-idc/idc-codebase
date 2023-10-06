@@ -1,0 +1,29 @@
+uuid: 32d11d11-e2bc-4dd4-8502-26bdf3508cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.collection_object
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
+id: node.collection_object.field_weight
+field_name: field_weight
+entity_type: node
+bundle: collection_object
+label: 'Custom Sort Value'
+description: 'Sorting order'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

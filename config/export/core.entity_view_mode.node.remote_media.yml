@@ -1,0 +1,10 @@
+uuid: 1bc0d1e9-723d-46dc-953b-5774ff72476f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.remote_media
+label: 'Remote Media'
+targetEntityType: node
+cache: true

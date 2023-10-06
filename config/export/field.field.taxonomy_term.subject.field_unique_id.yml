@@ -1,0 +1,27 @@
+uuid: d26d0b4c-ed19-4cd2-ab6c-1ed6e5875512
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_unique_id
+    - taxonomy.vocabulary.subject
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: taxonomy_term.subject.field_unique_id
+field_name: field_unique_id
+entity_type: taxonomy_term
+bundle: subject
+label: 'Unique ID'
+description: 'This is the system''s unique identifier for this field.  Generally this should not be edited.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 42925465-a7a3-4e49-a992-56d90d5e4441
+default_value_callback: ''
+settings: {  }
+field_type: string

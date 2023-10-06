@@ -1,0 +1,24 @@
+uuid: 8fe6ff06-d917-4f29-885c-50dc7c089c0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+third_party_settings:
+  field_permissions:
+    permission_type: public
+_core:
+  default_config_hash: _sZN30dOHg2LmqdUngQJK_p6UugpOzRjqdfsZ5h54bo
+id: node.field_featured_item
+field_name: field_featured_item
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

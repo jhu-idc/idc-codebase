@@ -1,0 +1,27 @@
+uuid: b44ea572-657b-4577-852b-9664757f2a28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_unique_id
+    - taxonomy.vocabulary.corporate_body
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 1
+id: taxonomy_term.corporate_body.field_unique_id
+field_name: field_unique_id
+entity_type: taxonomy_term
+bundle: corporate_body
+label: 'Unique ID'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 451f43e0-5380-4a4d-936d-5740d1658d82
+default_value_callback: ''
+settings: {  }
+field_type: string
