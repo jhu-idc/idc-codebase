@@ -14,7 +14,7 @@ _core:
 id: idc_ui_theme_boots_temporalsubject
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -11
+weight: -12
 provider: null
 plugin: 'facet_block:temporal_subject'
 settings:

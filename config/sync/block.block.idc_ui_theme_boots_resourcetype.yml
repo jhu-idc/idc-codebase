@@ -14,7 +14,7 @@ dependencies:
 id: idc_ui_theme_boots_resourcetype
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -16
+weight: -17
 provider: null
 plugin: 'facet_block:resource_type'
 settings:

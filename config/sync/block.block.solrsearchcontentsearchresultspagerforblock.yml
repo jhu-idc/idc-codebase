@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - advanced_search
     - context
     - islandora
   theme:
