@@ -1,6 +1,6 @@
 uuid: 64c9b78d-f0d0-46e3-bfcf-b79fd59c5ea8
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
@@ -277,7 +277,6 @@ display:
     display_plugin: block
     position: 1
     display_options:
-      enabled: false
       title: 'Home Page'
       filters:
         status:
@@ -428,7 +427,6 @@ display:
     display_plugin: block
     position: 2
     display_options:
-      enabled: false
       title: 'Browse Our Collections'
       defaults:
         title: false
@@ -651,7 +649,7 @@ display:
     display_plugin: page
     position: 2
     display_options:
-      enabled: false
+      enabled: true
       title: 'All Collections'
       defaults:
         title: false

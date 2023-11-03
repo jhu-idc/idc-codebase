@@ -1,6 +1,6 @@
 uuid: 1ba6cb69-c81c-4c9d-b955-b57256008603
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.member_of
@@ -13,8 +13,8 @@ dependencies:
     - idc_ui_theme_boots
 id: idc_ui_theme_boots_memberof
 theme: idc_ui_theme_boots
-region: sidebar_first
-weight: -7
+region: top_header
+weight: -11
 provider: null
 plugin: 'facet_block:member_of'
 settings:

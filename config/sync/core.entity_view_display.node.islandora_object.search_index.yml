@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.search_index
     - field.field.node.islandora_object.field_abstract
     - field.field.node.islandora_object.field_alt_title
-    - field.field.node.islandora_object.field_alternative_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
     - field.field.node.islandora_object.field_collection_number
@@ -460,7 +459,6 @@ content:
 hidden:
   display_media_entity_view_3: true
   display_media_thumbnail: true
-  field_alternative_title: true
   field_citable_url: true
   field_collection_number: true
   field_contributor: true

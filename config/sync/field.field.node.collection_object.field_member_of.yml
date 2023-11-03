@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_member_of
     - node.type.collection_object
-    - node.type.islandora_object
 _core:
   default_config_hash: Y4yKpaHmxm0mkyZa5wCOpNT9ilZcsd1VFvBglMaJaMk
 id: node.collection_object.field_member_of
@@ -20,13 +19,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:node'
-  handler_settings:
-    target_bundles:
-      collection_object: collection_object
-      islandora_object: islandora_object
-    sort:
-      field: field_weight
-      direction: ASC
-    auto_create: false
-    auto_create_bundle: collection_object
+  handler_settings: {  }
 field_type: entity_reference

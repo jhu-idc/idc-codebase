@@ -6,6 +6,14 @@ dependencies:
     - field.storage.node.field_publisher
     - node.type.islandora_object
     - taxonomy.vocabulary.corporate_body
+    - taxonomy.vocabulary.family
+    - taxonomy.vocabulary.person
+  module:
+    - epp
+third_party_settings:
+  epp:
+    value: ''
+    on_update: 0
 id: node.islandora_object.field_publisher
 field_name: field_publisher
 entity_type: node
@@ -21,6 +29,8 @@ settings:
   handler_settings:
     target_bundles:
       corporate_body: corporate_body
+      family: family
+      person: person
     sort:
       field: name
       direction: asc

@@ -9,7 +9,7 @@ _core:
 id: idc_ui_theme_boots_local_tasks
 theme: idc_ui_theme_boots
 region: content
-weight: -10
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

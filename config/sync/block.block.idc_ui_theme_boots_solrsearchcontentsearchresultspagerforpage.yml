@@ -1,27 +1,29 @@
-uuid: e26b17b6-a1f5-4eb8-9ad3-28e7b8f352d2
+uuid: 01fe32b9-0634-42b8-a075-155a65019be5
 langcode: en
 status: true
 dependencies:
   module:
-    - advanced_search
     - context
     - islandora
+    - islandora_advanced_search
   theme:
     - idc_ui_theme_boots
-id: solrsearchcontentadvancedsearchforblock
+id: idc_ui_theme_boots_solrsearchcontentsearchresultspagerforpage
 theme: idc_ui_theme_boots
-region: sidebar_first
-weight: -17
+region: content
+weight: -11
 provider: null
-plugin: 'advanced_search_block:solr_search_content__block_1'
+plugin: 'islandora_advanced_search_result_pager:solr_search_content__page_1'
 settings:
-  id: 'advanced_search_block:solr_search_content__block_1'
-  label: 'Search within Collection'
+  id: 'islandora_advanced_search_result_pager:solr_search_content__page_1'
+  label: 'Solr search content: Search Results Pager for Page'
   label_display: visible
-  provider: advanced_search
-  fields: {  }
-  context_filter: field_member_of
+  provider: islandora_advanced_search
 visibility:
+  context:
+    id: context
+    negate: null
+    values: ''
   user_status:
     id: user_status
     negate: false
@@ -33,14 +35,15 @@ visibility:
       own_page_true: '0'
       field_value: '0'
     user_fields: uid
-  context:
-    id: context
-    negate: null
-    values: ''
   context_all:
     id: context_all
     negate: null
-    values: collection
+    values: ''
+  view_inclusion:
+    id: view_inclusion
+    negate: false
+    view_inclusion:
+      view-collection_children-page_1: view-collection_children-page_1
   media_source_mimetype:
     id: media_source_mimetype
     negate: false

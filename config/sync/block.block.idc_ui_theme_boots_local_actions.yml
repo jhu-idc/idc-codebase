@@ -9,7 +9,7 @@ _core:
 id: idc_ui_theme_boots_local_actions
 theme: idc_ui_theme_boots
 region: content
-weight: -16
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:
