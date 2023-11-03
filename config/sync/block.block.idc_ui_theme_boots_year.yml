@@ -14,7 +14,7 @@ dependencies:
 id: idc_ui_theme_boots_year
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -14
+weight: -13
 provider: null
 plugin: 'facet_block:year'
 settings:

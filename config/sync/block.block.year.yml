@@ -1,6 +1,6 @@
 uuid: e5f139d7-33fc-4da5-ae00-ffefb45e2816
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - facets.facet.year
@@ -12,8 +12,8 @@ dependencies:
     - idc_ui_theme_boots
 id: year
 theme: idc_ui_theme_boots
-region: top_header
-weight: 0
+region: sidebar_first
+weight: -6
 provider: null
 plugin: 'facet_block:year'
 settings:

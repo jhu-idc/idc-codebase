@@ -15,7 +15,7 @@ _core:
 id: idc_ui_theme_boots_creatorsandcontributors
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -16
+weight: -15
 provider: null
 plugin: 'facet_block:creators_and_contributors'
 settings:

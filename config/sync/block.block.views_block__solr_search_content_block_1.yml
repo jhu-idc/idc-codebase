@@ -1,4 +1,4 @@
-uuid: d9ad9477-0f98-4086-9711-33986fcd0121
+uuid: 425638ae-845e-4e36-8928-f590a7e8660d
 langcode: en
 status: true
 dependencies:
@@ -13,17 +13,25 @@ dependencies:
 id: views_block__solr_search_content_block_1
 theme: idc_ui_theme_boots
 region: content
-weight: -9
+weight: 0
 provider: null
 plugin: 'views_block:solr_search_content-block_1'
 settings:
   id: 'views_block:solr_search_content-block_1'
-  label: Broken/Missing
+  label: ''
   label_display: '0'
-  provider: core
+  provider: views
   views_label: ''
   items_per_page: none
 visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: collection
+  context:
+    id: context
+    negate: null
+    values: ''
   user_status:
     id: user_status
     negate: false
@@ -35,14 +43,6 @@ visibility:
       own_page_true: '0'
       field_value: '0'
     user_fields: uid
-  context:
-    id: context
-    negate: null
-    values: ''
-  context_all:
-    id: context_all
-    negate: null
-    values: collection
   media_source_mimetype:
     id: media_source_mimetype
     negate: false

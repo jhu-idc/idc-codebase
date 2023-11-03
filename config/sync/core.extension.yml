@@ -50,6 +50,7 @@ module:
   file_replace: 0
   filehash: 0
   filter: 0
+  flexible_permissions: 0
   flysystem: 0
   geolocation: 0
   gnode: 0

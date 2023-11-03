@@ -11,7 +11,7 @@ name: audio_original_file
 group: Derivatives
 description: 'Derivatives for Audio'
 requireAllConditions: true
-disabled: true
+disabled: false
 conditions:
   media_has_term:
     id: media_has_term

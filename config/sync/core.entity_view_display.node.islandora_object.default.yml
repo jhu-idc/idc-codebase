@@ -321,14 +321,6 @@ content:
     third_party_settings: {  }
     weight: 55
     region: content
-  field_display_hints:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 75
-    region: content
   field_dspace_identifier:
     type: link
     label: above
@@ -587,14 +579,6 @@ content:
     third_party_settings: {  }
     weight: 16
     region: content
-  field_model:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: true
-    third_party_settings: {  }
-    weight: 73
-    region: content
   field_note:
     type: text_default
     label: above
@@ -713,15 +697,6 @@ content:
     third_party_settings: {  }
     weight: 69
     region: content
-  field_weight:
-    type: number_integer
-    label: hidden
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 74
-    region: content
   field_years:
     type: edtf_default
     label: above
@@ -733,15 +708,6 @@ content:
       year_format: 'y'
     third_party_settings: {  }
     weight: 70
-    region: content
-  langcode:
-    type: language
-    label: hidden
-    settings:
-      link_to_entity: false
-      native_language: false
-    third_party_settings: {  }
-    weight: 72
     region: content
   links:
     settings: {  }
@@ -756,9 +722,13 @@ content:
 hidden:
   display_media_entity_view_3: true
   display_media_thumbnail: true
+  field_display_hints: true
+  field_model: true
   field_pid: true
   field_place_published_country: true
+  field_weight: true
   islandora_fits_checksum: true
+  langcode: true
   openseadragon_media_evas_entity_view_1: true
   openseadragon_media_evas_entity_view_2: true
   openseadragon_media_evas_service_file: true

@@ -3,11 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_abstract
     - field.storage.node.field_description
-    - field.storage.node.field_resource_type
     - search_api.index.default_solr_index
   module:
     - search_api
+    - text
     - views_field_view
 id: solr_search_content
 label: 'Solr search content'
@@ -145,8 +146,10 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: number_unformatted
-          settings: {  }
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -568,14 +571,14 @@ display:
             use_highlighting: true
             multi_type: separator
             multi_separator: ', '
-        processed:
-          id: processed
+        field_abstract:
+          id: field_abstract
           table: search_api_index_default_solr_index
-          field: processed
+          field: field_abstract
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: search_api
+          plugin_id: search_api_field
           label: Abstract
           exclude: false
           alter:
@@ -617,10 +620,26 @@ display:
           hide_empty: true
           empty_zero: false
           hide_alter_empty: true
-          link_to_item: false
-          use_highlighting: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
           multi_type: separator
-          multi_separator: ', '
+          separator: ', '
+          field_api_classes: false
+          field_rendering: false
+          fallback_handler: search_api
+          fallback_options:
+            link_to_item: false
+            use_highlighting: true
+            multi_type: separator
+            multi_separator: ', '
         search_api_excerpt:
           id: search_api_excerpt
           table: search_api_index_default_solr_index
@@ -774,6 +793,7 @@ display:
           plugin_id: search_api_options
           operator: or
           value:
+            collection_object: collection_object
             islandora_object: islandora_object
           group: 1
           exposed: false
@@ -850,8 +870,8 @@ display:
         - 'url.query_args:sort_order'
         - 'user.node_grants:view'
       tags:
+        - 'config:field.storage.node.field_abstract'
         - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_resource_type'
         - 'config:search_api.index.default_solr_index'
         - 'search_api_list:default_solr_index'
       cacheable: false
@@ -953,8 +973,8 @@ display:
         - 'url.query_args:sort_order'
         - 'user.node_grants:view'
       tags:
+        - 'config:field.storage.node.field_abstract'
         - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_resource_type'
         - 'config:search_api.index.default_solr_index'
         - 'search_api_list:default_solr_index'
   page_1:
@@ -988,6 +1008,7 @@ display:
           plugin_id: search_api_options
           operator: or
           value:
+            collection_object: collection_object
             islandora_object: islandora_object
           group: 1
           exposed: false
@@ -1052,8 +1073,8 @@ display:
         - 'url.query_args:sort_order'
         - 'user.node_grants:view'
       tags:
+        - 'config:field.storage.node.field_abstract'
         - 'config:field.storage.node.field_description'
-        - 'config:field.storage.node.field_resource_type'
         - 'config:search_api.index.default_solr_index'
         - 'search_api_list:default_solr_index'
       cacheable: false

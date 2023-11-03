@@ -1,8 +1,0 @@
-uuid: fd3aaaf8-d4de-41aa-825f-af268acb71ba
-langcode: en
-status: true
-dependencies: {  }
-name: 'Copyright and Use'
-vid: copyright_and_use
-description: 'Copyright and Use uses RightsStatements.org to "communicate the copyright and re-use status of digital objects to the public."'
-weight: 0

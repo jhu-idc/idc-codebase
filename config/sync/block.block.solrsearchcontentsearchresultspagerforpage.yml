@@ -11,7 +11,7 @@ dependencies:
 id: solrsearchcontentsearchresultspagerforpage
 theme: idc_ui_theme_boots
 region: content
-weight: -12
+weight: -15
 provider: null
 plugin: 'advanced_search_result_pager:solr_search_content__page_1'
 settings:

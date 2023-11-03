@@ -1,4 +1,4 @@
-uuid: e31cee54-f0e1-4ac3-bf84-c89584745b31
+uuid: 42d9fb99-0fff-4f1c-a514-c0c6f8091e18
 langcode: en
 status: true
 dependencies:
@@ -6,19 +6,18 @@ dependencies:
     - advanced_search
     - context
     - islandora
-    - system
   theme:
     - idc_ui_theme_boots
 id: search
 theme: idc_ui_theme_boots
-region: primary_menu
-weight: -11
+region: sidebar_first
+weight: 0
 provider: null
 plugin: search_block
 settings:
   id: search_block
   label: Search
-  label_display: '0'
+  label_display: visible
   provider: advanced_search
   block_id: search
   search_view_machine_name: view.solr_search_content.page_1
@@ -29,7 +28,7 @@ visibility:
   context_all:
     id: context_all
     negate: null
-    values: ''
+    values: collection
   context:
     id: context
     negate: null
@@ -50,7 +49,3 @@ visibility:
     negate: false
     context_mapping: {  }
     mimetype: ''
-  request_path:
-    id: request_path
-    negate: true
-    pages: /search

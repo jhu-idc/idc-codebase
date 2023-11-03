@@ -14,7 +14,7 @@ _core:
 id: idc_ui_theme_boots_subjectname
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -13
+weight: -12
 provider: null
 plugin: 'facet_block:subject_name'
 settings:

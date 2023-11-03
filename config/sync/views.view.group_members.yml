@@ -1,4 +1,4 @@
-uuid: b7e0decd-0eac-4ece-bb42-f466dc1d48d4
+uuid: 43cb1656-d2d6-4822-b025-78b1efba55f1
 langcode: en
 status: true
 dependencies:
@@ -6,13 +6,13 @@ dependencies:
     - group
     - user
 _core:
-  default_config_hash: zIcnLmbW8inPRIQdPSVbKPuG2o5G5wHGJED4Jlgb2SY
+  default_config_hash: JObBEUBjxiblsPypD-apV4KDHMD6JetwJds-xV_IBs4
 id: group_members
 label: 'Group members'
 module: group
 description: ''
 tag: ''
-base_table: group_content_field_data
+base_table: group_relationship_field_data
 base_field: id
 display:
   default:
@@ -90,7 +90,7 @@ display:
           field_api_classes: false
         group_roles:
           id: group_roles
-          table: group_content__group_roles
+          table: group_relationship__group_roles
           field: group_roles
           relationship: none
           group_type: group
@@ -133,7 +133,7 @@ display:
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
-          empty: '<div class="item-list"><ul><li>&lt;none&gt;</li></ul></div>'
+          empty: None
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
@@ -153,12 +153,12 @@ display:
           field_api_classes: false
         changed:
           id: changed
-          table: group_content_field_data
+          table: group_relationship_field_data
           field: changed
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: group_content
+          entity_type: group_relationship
           entity_field: changed
           plugin_id: field
           label: Updated
@@ -220,12 +220,12 @@ display:
           field_api_classes: false
         created:
           id: created
-          table: group_content_field_data
+          table: group_relationship_field_data
           field: created
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: group_content
+          entity_type: group_relationship
           entity_field: created
           plugin_id: field
           label: Joined
@@ -285,14 +285,14 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        view_group_content:
-          id: view_group_content
-          table: group_content
-          field: view_group_content
+        view_group_relationship:
+          id: view_group_relationship
+          table: group_relationship
+          field: view_group_relationship
           relationship: none
           group_type: group
           admin_label: 'View member link'
-          entity_type: group_content
+          entity_type: group_relationship
           plugin_id: entity_link
           label: ''
           exclude: true
@@ -338,14 +338,14 @@ display:
           text: 'View member'
           output_url_as_text: false
           absolute: false
-        edit_group_content:
-          id: edit_group_content
-          table: group_content
-          field: edit_group_content
+        edit_group_relationship:
+          id: edit_group_relationship
+          table: group_relationship
+          field: edit_group_relationship
           relationship: none
           group_type: group
           admin_label: 'Edit member link'
-          entity_type: group_content
+          entity_type: group_relationship
           plugin_id: entity_link_edit
           label: ''
           exclude: true
@@ -389,14 +389,14 @@ display:
           empty_zero: false
           hide_alter_empty: true
           text: 'Edit member'
-        delete_group_content:
-          id: delete_group_content
-          table: group_content
-          field: delete_group_content
+        delete_group_relationship:
+          id: delete_group_relationship
+          table: group_relationship
+          field: delete_group_relationship
           relationship: none
           group_type: group
           admin_label: 'Remove member link'
-          entity_type: group_content
+          entity_type: group_relationship
           plugin_id: entity_link_delete
           label: ''
           exclude: true
@@ -491,9 +491,9 @@ display:
           hide_alter_empty: true
           destination: true
           fields:
-            view_group_content: view_group_content
-            edit_group_content: edit_group_content
-            delete_group_content: delete_group_content
+            view_group_relationship: view_group_relationship
+            edit_group_relationship: edit_group_relationship
+            delete_group_relationship: delete_group_relationship
             name: '0'
             group_roles: '0'
             changed: '0'
@@ -552,12 +552,12 @@ display:
       arguments:
         gid:
           id: gid
-          table: group_content_field_data
+          table: group_relationship_field_data
           field: gid
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: group_content
+          entity_type: group_relationship
           entity_field: gid
           plugin_id: numeric
           default_action: 'access denied'
@@ -599,9 +599,9 @@ display:
             group_roles: group_roles
             changed: changed
             created: created
-            view_group_content: view_group_content
-            edit_group_content: edit_group_content
-            delete_group_content: delete_group_content
+            view_group_relationship: view_group_relationship
+            edit_group_relationship: edit_group_relationship
+            delete_group_relationship: delete_group_relationship
             dropbutton: dropbutton
           default: '-1'
           info:
@@ -631,21 +631,21 @@ display:
               separator: ''
               empty_column: false
               responsive: ''
-            view_group_content:
+            view_group_relationship:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
-            edit_group_content:
+            edit_group_relationship:
               sortable: false
               default_sort_order: asc
               align: ''
               separator: ''
               empty_column: false
               responsive: ''
-            delete_group_content:
+            delete_group_relationship:
               sortable: false
               default_sort_order: asc
               align: ''
@@ -683,15 +683,15 @@ display:
       relationships:
         gc__user:
           id: gc__user
-          table: group_content_field_data
+          table: group_relationship_field_data
           field: gc__user
           relationship: none
           group_type: group
           admin_label: 'Member account'
-          entity_type: group_content
-          plugin_id: group_content_to_entity
+          entity_type: group_relationship
+          plugin_id: group_relationship_to_entity
           required: true
-          group_content_plugins:
+          group_relation_plugins:
             group_membership: group_membership
       header: {  }
       footer: {  }
@@ -706,7 +706,7 @@ display:
         - url.query_args
         - user.group_permissions
       tags:
-        - 'config:field.storage.group_content.group_roles'
+        - 'config:field.storage.group_relationship.group_roles'
   page_1:
     id: page_1
     display_title: Page
@@ -735,4 +735,4 @@ display:
         - url.query_args
         - user.group_permissions
       tags:
-        - 'config:field.storage.group_content.group_roles'
+        - 'config:field.storage.group_relationship.group_roles'

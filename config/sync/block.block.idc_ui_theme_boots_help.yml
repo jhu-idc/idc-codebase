@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: idc_ui_theme_boots_help
 theme: idc_ui_theme_boots
-region: top_header
-weight: -6
+region: content
+weight: -17
 provider: null
 plugin: help_block
 settings:

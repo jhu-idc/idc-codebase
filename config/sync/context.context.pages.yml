@@ -11,7 +11,7 @@ name: pages
 group: Derivatives
 description: 'Derivatives for Pages'
 requireAllConditions: true
-disabled: true
+disabled: false
 conditions:
   parent_node_has_term:
     id: parent_node_has_term

@@ -1,6 +1,6 @@
 uuid: c6a1b124-c1d0-4249-9c5a-3eb0963f25a1
 langcode: en
-status: false
+status: true
 dependencies:
   config:
     - facets.facet.year_swc
@@ -12,8 +12,8 @@ dependencies:
     - idc_ui_theme_boots
 id: yearswc
 theme: idc_ui_theme_boots
-region: top_header
-weight: 0
+region: sidebar_first
+weight: -5
 provider: null
 plugin: 'facet_block:year_swc'
 settings:

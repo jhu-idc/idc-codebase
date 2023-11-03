@@ -14,7 +14,7 @@ _core:
 id: idc_ui_theme_boots_physicalform
 theme: idc_ui_theme_boots
 region: sidebar_first
-weight: -15
+weight: -14
 provider: null
 plugin: 'facet_block:physical_form'
 settings:

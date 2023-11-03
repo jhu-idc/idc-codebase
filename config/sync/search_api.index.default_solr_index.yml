@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_abstract
     - field.storage.node.field_alt_title
+    - field.storage.node.field_edtf_date_created
     - field.storage.node.field_member_of
     - field.storage.node.field_description
     - field.storage.node.field_dewey_classification
     - field.storage.node.field_edition
-    - field.storage.node.field_edtf_date_created
     - field.storage.node.field_extent
     - field.storage.node.field_full_title
     - field.storage.node.field_isbn
@@ -18,12 +19,12 @@ dependencies:
     - field.storage.node.field_physical_form
     - field.storage.node.field_resource_type
     - field.storage.node.field_rights
-    - field.storage.node.field_tags
     - field.storage.node.field_subject_general
     - field.storage.node.field_geographic_subject
     - field.storage.node.field_subjects_name
     - field.storage.node.field_temporal_subject
     - field.storage.node.field_subject
+    - field.storage.node.field_tags
     - search_api.server.default_solr_server
     - core.entity_view_mode.node.search_index
   module:
@@ -86,6 +87,18 @@ name: 'Default Solr content index'
 description: 'Default content index created by the Solr Search Defaults module'
 read_only: false
 field_settings:
+  abstract_description_fulltext:
+    label: Description
+    property_path: aggregated_field
+    type: text
+    configuration:
+      type: union
+      separator: |+
+
+
+      fields:
+        - 'entity:node/field_abstract'
+        - 'entity:node/field_description'
   author:
     label: 'Author name'
     datasource_id: 'entity:node'
@@ -115,6 +128,14 @@ field_settings:
     label: 'EDTF Creation Date Year'
     property_path: edtf_year
     type: integer
+  field_abstract:
+    label: Abstract
+    datasource_id: 'entity:node'
+    property_path: field_abstract
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_abstract
   field_alt_title:
     label: 'Alternative Title'
     datasource_id: 'entity:node'
@@ -210,6 +231,16 @@ field_settings:
         - field.storage.node.field_linked_agent
       module:
         - taxonomy
+  field_member_of:
+    label: 'Member of'
+    datasource_id: 'entity:node'
+    property_path: 'field_member_of:entity:field_member_of'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_member_of
+      module:
+        - node
   field_oclc_number:
     label: 'OCLC Number'
     datasource_id: 'entity:node'
@@ -264,6 +295,14 @@ field_settings:
         - field.storage.node.field_member_of
       module:
         - node
+  nid:
+    label: ID
+    datasource_id: 'entity:node'
+    property_path: nid
+    type: integer
+    dependencies:
+      module:
+        - node
   node_grants:
     label: 'Node access information'
     property_path: search_api_node_grants
@@ -302,12 +341,15 @@ field_settings:
     dependencies:
       module:
         - node
-  subject_aggregated:
-    label: 'Subjects (All)'
+  subject_aggregated_fulltext:
+    label: Subjects
     property_path: aggregated_field
-    type: string
+    type: text
     configuration:
       type: union
+      separator: |+
+
+
       fields:
         - 'entity:node/field_geographic_subject'
         - 'entity:node/field_subject'
@@ -383,6 +425,20 @@ field_settings:
         - 'entity:node/field_alt_title'
         - 'entity:node/field_full_title'
         - 'entity:node/title'
+  title_aggregated_fulltext:
+    label: Title
+    property_path: aggregated_field
+    type: text
+    configuration:
+      type: union
+      separator: |+
+
+
+      fields:
+        - 'entity:node/field_alt_title'
+        - 'entity:node/field_alternative_title'
+        - 'entity:node/field_full_title'
+        - 'entity:node/title'
   type:
     label: 'Content type'
     datasource_id: 'entity:node'
@@ -421,6 +477,7 @@ processor_settings:
     weights:
       preprocess_index: -6
       preprocess_query: -4
+  custom_value: {  }
   edtf_year_only:
     fields:
       collection_object|field_edtf_date: collection_object|field_edtf_date
@@ -431,9 +488,9 @@ processor_settings:
       islandora_object|field_edtf_date_created: islandora_object|field_edtf_date_created
       islandora_object|field_edtf_date_issued: islandora_object|field_edtf_date_issued
     ignore_undated: 1
-    ignore_open_start: 1
+    ignore_open_start: 0
     open_start_year: '0'
-    ignore_open_end: 1
+    ignore_open_end: 0
     open_end_year: ''
   entity_status:
     weights:
@@ -453,9 +510,14 @@ processor_settings:
     excerpt_always: true
     excerpt_length: 256
     exclude_fields:
+      - abstract_description_fulltext
+      - field_abstract
       - field_description
       - field_full_title
+      - rendered_item
+      - subject_aggregated_fulltext
       - title
+      - title_aggregated_fulltext
     highlight: always
     highlight_partial: true
   html_filter:
