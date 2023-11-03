@@ -12,8 +12,6 @@ third_party_settings:
   epp:
     value: ''
     on_update: 0
-_core:
-  default_config_hash: pZJl3qsYONb8CqMy4xwlCFhZxlo6FGXrNZfaEGI8vj8
 id: node.islandora_object.field_member_of
 field_name: field_member_of
 entity_type: node

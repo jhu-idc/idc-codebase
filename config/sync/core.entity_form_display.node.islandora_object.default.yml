@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.islandora_object.field_abstract
     - field.field.node.islandora_object.field_alt_title
+    - field.field.node.islandora_object.field_alternative_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
     - field.field.node.islandora_object.field_collection_number
@@ -272,8 +273,6 @@ third_party_settings:
         open: false
         description: ''
         required_fields: true
-_core:
-  default_config_hash: wnUDv31TLzQaxvdHct4EV2lXhhaWUIf_1g_d0fLUWs4
 id: node.islandora_object.default
 targetEntityType: node
 bundle: islandora_object
@@ -296,6 +295,14 @@ content:
   field_alt_title:
     type: string_textfield
     weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_alternative_title:
+    type: string_textfield
+    weight: 72
     region: content
     settings:
       size: 60

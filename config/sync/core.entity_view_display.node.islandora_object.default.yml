@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.islandora_object.field_abstract
     - field.field.node.islandora_object.field_alt_title
+    - field.field.node.islandora_object.field_alternative_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
     - field.field.node.islandora_object.field_collection_number
@@ -80,8 +81,6 @@ dependencies:
     - link
     - text
     - user
-_core:
-  default_config_hash: 7nAsgKpklfcldz5UjF5QnwGQqa2f2zypALWMvnJ8PeI
 id: node.islandora_object.default
 targetEntityType: node
 bundle: islandora_object
@@ -121,6 +120,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_alternative_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 71
     region: content
   field_citable_url:
     type: link

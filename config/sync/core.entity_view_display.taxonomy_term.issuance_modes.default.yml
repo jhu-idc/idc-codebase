@@ -8,8 +8,6 @@ dependencies:
   module:
     - controlled_access_terms
     - text
-_core:
-  default_config_hash: dOboywHDW3gkSFjB0DB5ireByItfM9eWXeZt-eIxPDI
 id: taxonomy_term.issuance_modes.default
 targetEntityType: taxonomy_term
 bundle: issuance_modes

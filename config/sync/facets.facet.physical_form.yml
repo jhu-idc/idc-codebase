@@ -7,8 +7,6 @@ dependencies:
     - views.view.solr_search_content
   module:
     - search_api
-_core:
-  default_config_hash: '-kS3T9_5sZ-R0F3FpEYcphpjlBCsF0vRw8LlzbmKo6E'
 id: physical_form
 name: 'Physical Form'
 weight: 1

@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_mode_of_issuance
     - node.type.islandora_object
     - taxonomy.vocabulary.issuance_modes
-_core:
-  default_config_hash: '-IKF02Xe_HhVSwFmmPlhBgX7uFetvQMcbpJR4zvpp2c'
 id: node.islandora_object.field_mode_of_issuance
 field_name: field_mode_of_issuance
 entity_type: node

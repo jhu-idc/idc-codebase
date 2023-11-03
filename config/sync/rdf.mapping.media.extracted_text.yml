@@ -6,8 +6,6 @@ dependencies:
     - media.type.extracted_text
   module:
     - media
-_core:
-  default_config_hash: 4mPQTsBciWc5I_yUCT0dfBin57cCsNIzStVSemt2tPA
 id: media.extracted_text
 targetEntityType: media
 bundle: extracted_text

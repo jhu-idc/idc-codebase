@@ -7,8 +7,6 @@ dependencies:
     - views.view.solr_search_content
   module:
     - search_api
-_core:
-  default_config_hash: KVrlVS15Yhsmk2_CUOmVE0pC_7Rv17neR0FD8ZNymFY
 id: creators_and_contributors
 name: 'Creators and Contributors'
 weight: -3

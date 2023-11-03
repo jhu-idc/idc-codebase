@@ -9,8 +9,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: e4LrcJMfC9M33DZk_7wIwjuF7ZQMqeNd9suJxr62Y6A
 id: taxonomy_term.frequencies.default
 targetEntityType: taxonomy_term
 bundle: frequencies

@@ -14,8 +14,6 @@ dependencies:
     - media.type.video
   module:
     - filehash
-_core:
-  default_config_hash: uu0AyLKPsOKaxVZYcZhYaPRZ7JOotztenkoxCiLJ51o
 id: media.video.file_download
 targetEntityType: media
 bundle: video

@@ -14,8 +14,6 @@ dependencies:
     - media.type.file
   module:
     - openseadragon
-_core:
-  default_config_hash: 1RU-4AH3ijXEa2J5JyfU1PqmtJfgLfPLCQL9qkNDb0U
 id: media.file.open_seadragon
 targetEntityType: media
 bundle: file

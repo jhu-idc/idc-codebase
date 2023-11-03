@@ -12,8 +12,6 @@ third_party_settings:
   filehash:
     dedupe: 0
     dedupe_original: false
-_core:
-  default_config_hash: nvfDHoMQmVfRuyJ3o-0vnC0FIqJAvzYgtteAXWxKkp0
 id: media.file.field_media_file
 field_name: field_media_file
 entity_type: media

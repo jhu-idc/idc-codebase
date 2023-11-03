@@ -16,8 +16,6 @@ third_party_settings:
       kind: '0'
       srclang: '0'
       default: '0'
-_core:
-  default_config_hash: nyFltcz_B1bghGp34hIbTiqNa440C2E3h7pvNFEyZIM
 id: media.audio.field_track
 field_name: field_track
 entity_type: media

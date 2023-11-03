@@ -6,8 +6,6 @@ dependencies:
     - node
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: bootstrap_barrio_syndicate
 theme: bootstrap_barrio
 region: top_header

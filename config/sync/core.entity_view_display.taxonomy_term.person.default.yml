@@ -20,8 +20,6 @@ dependencies:
   module:
     - controlled_access_terms
     - text
-_core:
-  default_config_hash: '-KViCNNPm8unAlNoDOlCV3TXc7sXbpeK7gRW5vD_ypA'
 id: taxonomy_term.person.default
 targetEntityType: taxonomy_term
 bundle: person

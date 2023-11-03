@@ -6,8 +6,6 @@ dependencies:
     - taxonomy.vocabulary.temporal_subjects
   module:
     - taxonomy
-_core:
-  default_config_hash: nshQbtfQ9bsJROMb4hvPsxQexCN-8Trdf8Q8bvXYBUI
 id: taxonomy_term.temporal_subjects
 targetEntityType: taxonomy_term
 bundle: temporal_subjects

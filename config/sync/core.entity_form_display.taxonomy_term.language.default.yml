@@ -9,8 +9,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: C56opIwc14F8xGc0jbrPwVD4KSyLuhoBDfJT-3VUCUw
 id: taxonomy_term.language.default
 targetEntityType: taxonomy_term
 bundle: language

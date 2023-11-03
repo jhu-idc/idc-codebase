@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.frequencies
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: Z7Cwjb1ejsX8_XXa2oQhfAnxkVeVkNSBfreRybyQiRA
 id: taxonomy_term.frequencies.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

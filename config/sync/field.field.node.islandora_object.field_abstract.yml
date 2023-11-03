@@ -7,8 +7,6 @@ dependencies:
     - node.type.islandora_object
   module:
     - text
-_core:
-  default_config_hash: r2tcw25l3BnD3JSUlKXj6NWsGJ0Ik6YdUiTqqGW0EwA
 id: node.islandora_object.field_abstract
 field_name: field_abstract
 entity_type: node

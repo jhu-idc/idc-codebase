@@ -2,8 +2,6 @@ uuid: 4ff5966d-8de8-4882-8166-6630007041ec
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: LvpfYUzHvp2cxgB6AXmm3C_LIMG7cbz7sQlmKdm8Yp8
 id: text_edgestring_und_3_6_0
 label: 'Edge NGram String Field'
 minimum_solr_version: 3.6.0
@@ -37,6 +35,7 @@ field_type:
           class: solr.LowerCaseFilterFactory
         -
           class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 unstemmed_field_type: null
 spellcheck_field_type: null
 collated_field_type: null

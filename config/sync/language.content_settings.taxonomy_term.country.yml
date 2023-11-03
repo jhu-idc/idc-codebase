@@ -11,8 +11,6 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
-_core:
-  default_config_hash: 86_PvmnjlIAH5ePzWzWLITBDctSQX5yr25xaDs9UUCw
 id: taxonomy_term.country
 target_entity_type_id: taxonomy_term
 target_bundle: country

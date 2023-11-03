@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: o5KHcnyibXt-7SXqNpNyHTd8qYFOrDh1bk5I4aQo91Y
 label: Content
 name: repository_content
 group: Indexing

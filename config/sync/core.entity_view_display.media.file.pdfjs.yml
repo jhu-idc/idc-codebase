@@ -14,8 +14,6 @@ dependencies:
     - media.type.file
   module:
     - pdf
-_core:
-  default_config_hash: yAsoVBXZAeFYwVJ93Pwvjp8njirRyKVR1oZyGQa-pus
 id: media.file.pdfjs
 targetEntityType: media
 bundle: file

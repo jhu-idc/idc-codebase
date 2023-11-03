@@ -5,8 +5,6 @@ dependencies:
   module:
     - taxonomy
     - user
-_core:
-  default_config_hash: EMrY7V_KkNrRyfCQ585e6jFayYcmfEd3UXz0Oau_Sug
 id: all_taxonomy_terms
 label: 'All Taxonomy Terms'
 module: views

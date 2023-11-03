@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: 1hWjMsl225Q8XunEOdRDfkkuswJrsGmg2qhYd1i36XQ
 label: 'Video Derivatives'
 name: video_original_file
 group: Derivatives

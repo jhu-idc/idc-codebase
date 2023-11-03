@@ -14,8 +14,6 @@ dependencies:
     - geolocation
     - link
     - text
-_core:
-  default_config_hash: 2IWu7AK6BJrbzWfbJyQntIT3yljHO6KDqltuhjUMQQU
 id: taxonomy_term.geo_location.default
 targetEntityType: taxonomy_term
 bundle: geo_location

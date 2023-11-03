@@ -4,8 +4,6 @@ status: true
 dependencies:
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: idc_ui_theme_boots_primary_admin_actions
 theme: idc_ui_theme_boots
 region: highlighted

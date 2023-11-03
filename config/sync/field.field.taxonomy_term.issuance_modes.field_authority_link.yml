@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.issuance_modes
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: _L6Iby5EKxhqCCfAggp9czWf8xVEFfUu3PihNyQAiQI
 id: taxonomy_term.issuance_modes.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

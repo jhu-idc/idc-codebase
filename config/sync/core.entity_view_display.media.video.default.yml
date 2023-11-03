@@ -13,8 +13,6 @@ dependencies:
     - media.type.video
   module:
     - islandora_video
-_core:
-  default_config_hash: uu0AyLKPsOKaxVZYcZhYaPRZ7JOotztenkoxCiLJ51o
 id: media.video.default
 targetEntityType: media
 bundle: video

@@ -9,8 +9,6 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: custom
-_core:
-  default_config_hash: 37axRb7dNW5YPPzeVg2jJ2D22oi-uWcFefejtxFXOg0
 id: node.field_model
 field_name: field_model
 entity_type: node

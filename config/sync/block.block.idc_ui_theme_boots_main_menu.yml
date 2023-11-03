@@ -10,8 +10,6 @@ dependencies:
     - system
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: idc_ui_theme_boots_main_menu
 theme: idc_ui_theme_boots
 region: secondary_menu

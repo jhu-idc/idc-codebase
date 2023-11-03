@@ -9,8 +9,6 @@ dependencies:
     - link
     - path
     - text
-_core:
-  default_config_hash: Osl9c_Yf9MjIGTvFaf1MgaLn7-g6shLhCPymeG2iKt8
 id: taxonomy_term.resource_types.default
 targetEntityType: taxonomy_term
 bundle: resource_types

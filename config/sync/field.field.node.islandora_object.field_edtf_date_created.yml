@@ -7,8 +7,6 @@ dependencies:
     - node.type.islandora_object
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: az1ueHHmVIOW8aWHwzZYT0SNhvvnBeQF34XPs59BV7U
 id: node.islandora_object.field_edtf_date_created
 field_name: field_edtf_date_created
 entity_type: node

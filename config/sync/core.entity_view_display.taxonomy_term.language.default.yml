@@ -8,8 +8,6 @@ dependencies:
   module:
     - controlled_access_terms
     - text
-_core:
-  default_config_hash: _MbQPbUt0Qly57l3YdcfkFSKztJIxn_MULR-b4rcTuc
 id: taxonomy_term.language.default
 targetEntityType: taxonomy_term
 bundle: language

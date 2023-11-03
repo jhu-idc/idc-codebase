@@ -2,8 +2,6 @@ uuid: 13b07e5b-8ee1-4259-a11d-6a2517acc886
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: C6usKJrZGraSvCmtKfX-LqCoFYxR5EtySNOkSz_cA8k
 id: text_ngramstring_und_4_5_0
 label: 'NGram String Field'
 minimum_solr_version: 4.5.0
@@ -37,6 +35,7 @@ field_type:
           class: solr.LowerCaseFilterFactory
         -
           class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 unstemmed_field_type: null
 spellcheck_field_type: null
 collated_field_type: null

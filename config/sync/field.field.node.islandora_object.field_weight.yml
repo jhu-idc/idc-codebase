@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_weight
     - node.type.islandora_object
-_core:
-  default_config_hash: EHVVAcnmzOz1JErmRFH7tmz3iYey5O_FFj7VKGBXNOk
 id: node.islandora_object.field_weight
 field_name: field_weight
 entity_type: node

@@ -8,8 +8,6 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: ritH1OPE0hTgDD73edW6V2e7JjZ5bT5LMbwHQHqWfWs
 id: node.field_edtf_date_issued
 field_name: field_edtf_date_issued
 entity_type: node

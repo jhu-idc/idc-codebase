@@ -10,8 +10,6 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: 3zCHO53sVHFazBT8_1zNElOM-Yy1B0bL7gEF51rbgYk
 id: media.field_track
 field_name: field_track
 entity_type: media

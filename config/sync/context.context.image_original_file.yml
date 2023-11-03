@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: _w1tI4doB71OVhr9ylF4DCZRMGXy8Mtjcuk-8iAOz7Y
 label: 'Image Derivatives'
 name: image_original_file
 group: Derivatives

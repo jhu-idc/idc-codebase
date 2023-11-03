@@ -6,8 +6,6 @@ dependencies:
     - basic_auth
     - media
     - serialization
-_core:
-  default_config_hash: _yAs-A1tYKRPxRfoIB5J7pNkrM9hNyb_BJUA3_z1Jok
 id: entity.media_type
 plugin_id: 'entity:media_type'
 granularity: resource

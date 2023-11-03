@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: XVyjqKNCH498_gwxI4iS26Liob1z90U28Oaw1CHOJzc
 favicon:
   use_default: true
 features:
@@ -63,7 +61,7 @@ bootstrap_barrio_sidebar_first_offset: 0
 bootstrap_barrio_sidebar_second_width: 3
 bootstrap_barrio_sidebar_second_offset: 0
 bootstrap_barrio_button: 1
-bootstrap_barrio_button_size: ''
+bootstrap_barrio_button_size: btn-sm
 bootstrap_barrio_button_outline: 0
 bootstrap_barrio_navbar_container: '1'
 bootstrap_barrio_navbar_toggle: navbar-toggleable-md

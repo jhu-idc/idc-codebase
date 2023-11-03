@@ -7,8 +7,6 @@ dependencies:
     - serialization
     - taxonomy
     - user
-_core:
-  default_config_hash: nBd-o54HOet1jgPqgwmTkRTX646oTqOmAceWNGd4V6g
 id: terms_in_vocabulary
 label: 'Terms in vocabulary'
 module: views

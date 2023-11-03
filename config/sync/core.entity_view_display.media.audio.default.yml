@@ -13,8 +13,6 @@ dependencies:
     - media.type.audio
   module:
     - islandora_audio
-_core:
-  default_config_hash: 2FZ_TcS2MGA5tQMskHrjKwJ_ucnDEdIfsnMG5MHhjyA
 id: media.audio.default
 targetEntityType: media
 bundle: audio

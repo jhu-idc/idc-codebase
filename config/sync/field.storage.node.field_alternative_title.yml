@@ -8,8 +8,6 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: mFxWELMdWU1M-KfE1fAdzhla2IpqPM0uyIzWeaT8mo4
 id: node.field_alternative_title
 field_name: field_alternative_title
 entity_type: node

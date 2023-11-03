@@ -4,8 +4,6 @@ status: true
 dependencies:
   config:
     - node.type.islandora_object
-_core:
-  default_config_hash: R9tzl3gXbLnojgU6wijGL671X4z_kNWUcGJf7YPgwek
 id: node.islandora_object.uid
 field_name: uid
 entity_type: node

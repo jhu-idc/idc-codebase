@@ -9,8 +9,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: MGm_H0jvw6Kixq5XAdLcR-H4I6Lr_9AplPWMBsVqubA
 id: taxonomy_term.temporal_subjects.default
 targetEntityType: taxonomy_term
 bundle: temporal_subjects

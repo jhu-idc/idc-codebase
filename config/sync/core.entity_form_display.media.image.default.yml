@@ -18,8 +18,6 @@ dependencies:
     - image
     - path
     - view_mode_switch
-_core:
-  default_config_hash: 0m1---KA1hTxMlNoqo1kI1ZG5TBbGQy4sQ1rOMy9Ovg
 id: media.image.default
 targetEntityType: media
 bundle: image

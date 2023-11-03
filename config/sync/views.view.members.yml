@@ -7,8 +7,6 @@ dependencies:
   module:
     - node
     - user
-_core:
-  default_config_hash: ATR84UMbnx8nK3zGApyME_LIDQSYk2-WTjP3_iEfTM0
 id: members
 label: Members
 module: views
@@ -109,6 +107,19 @@ display:
         options: {  }
       empty: {  }
       sorts:
+        field_weight_value:
+          id: field_weight_value
+          table: node__field_weight
+          field: field_weight_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: standard
+          order: ASC
+          expose:
+            label: 'Custom Sort Value (field_weight)'
+            field_identifier: field_weight_value
+          exposed: false
         created:
           id: created
           table: node_field_data
@@ -234,9 +245,9 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: text
-          empty: false
+          empty: true
           content:
-            value: '<p> Here is a listing of the members, or "children," of this collection. This is a Drupal view, which means it can be modified to flexibly display these collection items in a variety of ways. Editing this view will change the way all collections appear. You can also clone and set up collection-specific member views, although this will increase the complexity of maintaining your views.</p>'
+            value: ''
             format: basic_html
           tokenize: false
       footer: {  }

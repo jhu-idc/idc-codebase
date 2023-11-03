@@ -7,8 +7,6 @@ dependencies:
     - media.type.video
   module:
     - islandora
-_core:
-  default_config_hash: I-lLYtbtQuId1NQ5d8LPg-wg3A4TpqTodY7SBMreXnI
 id: media.video.field_track
 field_name: field_track
 entity_type: media

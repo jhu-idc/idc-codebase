@@ -9,8 +9,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: _j-CqXI61yrP5UpxIGFA1jlElMDGRnTZu9FLOHGMeOU
 id: taxonomy_term.issuance_modes.default
 targetEntityType: taxonomy_term
 bundle: issuance_modes

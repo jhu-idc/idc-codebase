@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: UnALXKN9BfRPollIjAI9kSu6YpvuB6zhseorFtN2xW8
 id: bootstrap_barrio_account_menu
 theme: bootstrap_barrio
 region: secondary_menu

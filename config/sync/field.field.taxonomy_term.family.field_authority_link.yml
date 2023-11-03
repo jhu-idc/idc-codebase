@@ -12,8 +12,6 @@ third_party_settings:
   epp:
     value: ''
     on_update: 0
-_core:
-  default_config_hash: TJ6kl_X18r2ooh3dSjYBMrpmGH6YW2ZTyPgkOLH0pIo
 id: taxonomy_term.family.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

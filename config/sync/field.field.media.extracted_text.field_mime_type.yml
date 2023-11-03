@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.storage.media.field_mime_type
     - media.type.extracted_text
-_core:
-  default_config_hash: A-J-N_Qq9nk6RLP4YyDM04XGAoi3soR-On_D9qJPrsQ
 id: media.extracted_text.field_mime_type
 field_name: field_mime_type
 entity_type: media

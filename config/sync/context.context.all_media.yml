@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: 0ipt7H647M0BLxXJETg1ktGLwD1IsWRJvjveTP-PCKA
 label: 'All Media'
 name: all_media
 group: Indexing

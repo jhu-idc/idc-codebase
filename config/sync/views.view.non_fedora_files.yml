@@ -5,8 +5,6 @@ dependencies:
   module:
     - file
     - user
-_core:
-  default_config_hash: ALExt2wqqCRJhmOrccdW6TM-NL8Jb9QMknqsC2I8-HQ
 id: non_fedora_files
 label: 'Non-Fedora Files'
 module: views

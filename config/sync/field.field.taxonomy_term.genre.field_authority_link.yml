@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.genre
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: CuU0B68AIeW3-7eoepH8ywYZaHjKcym322TMMX3cn1k
 id: taxonomy_term.genre.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

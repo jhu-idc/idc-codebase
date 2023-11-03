@@ -11,8 +11,6 @@ third_party_settings:
   epp:
     value: ''
     on_update: 0
-_core:
-  default_config_hash: uPlfc18VK1ZjWoUTufqv1J-z2l7Rf8GCYmcfrpsJwFA
 id: node.collection_object.field_collection_contact_name
 field_name: field_collection_contact_name
 entity_type: node

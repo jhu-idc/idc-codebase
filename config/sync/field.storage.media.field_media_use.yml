@@ -9,8 +9,6 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: iI13bL8veuLh_hZI6FAqt5qGUXrfD6kS_F1S6NQEhbA
 id: media.field_media_use
 field_name: field_media_use
 entity_type: media

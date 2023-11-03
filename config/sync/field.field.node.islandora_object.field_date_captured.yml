@@ -7,8 +7,6 @@ dependencies:
     - node.type.islandora_object
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: b6PQWQgWsPtva8l0QqWucImMDIKKZAEvGXq2Lz80BZw
 id: node.islandora_object.field_date_captured
 field_name: field_date_captured
 entity_type: node

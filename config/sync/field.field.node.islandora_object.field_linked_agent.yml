@@ -10,8 +10,6 @@ dependencies:
     - taxonomy.vocabulary.person
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: mpy5AdN2p1VqqPIKinNNTimnPbnGr51QzjBj3YNUa_U
 id: node.islandora_object.field_linked_agent
 field_name: field_linked_agent
 entity_type: node

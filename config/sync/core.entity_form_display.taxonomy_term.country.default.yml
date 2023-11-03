@@ -9,8 +9,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: jjCMjwGvyxCVjSwFLhyeWDvxXTXWAzxbICOos3vWXPs
 id: taxonomy_term.country.default
 targetEntityType: taxonomy_term
 bundle: country

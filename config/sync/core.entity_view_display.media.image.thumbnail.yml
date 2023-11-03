@@ -17,8 +17,6 @@ dependencies:
     - media.type.image
   module:
     - islandora
-_core:
-  default_config_hash: mH-3GLriL2Vx34DOnmHTqPxMCEmqJLtesug6_H_6piM
 id: media.image.thumbnail
 targetEntityType: media
 bundle: image

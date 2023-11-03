@@ -9,8 +9,6 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-_core:
-  default_config_hash: KRhOZR8Dq0frQ8cxuMpgTaPBog6f25ZWUdChquyq55Q
 name: 'Collection Object'
 type: collection_object
 description: 'This creates a new Content Type Collection Object'

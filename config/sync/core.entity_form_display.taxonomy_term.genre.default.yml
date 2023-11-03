@@ -10,8 +10,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: 3NcYhdVDz3Ze-NzJuK_Xzqi33TJmBFiKpiPgS8Z0izc
 id: taxonomy_term.genre.default
 targetEntityType: taxonomy_term
 bundle: genre

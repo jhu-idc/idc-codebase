@@ -9,8 +9,6 @@ dependencies:
     - media
     - taxonomy
     - user
-_core:
-  default_config_hash: 6dcIYp8_I6h0fnEv2fCxmtimKI8NFbqhXwHXu79sPq4
 id: openseadragon_media_evas
 label: 'OpenSeadragon Media EVAs'
 module: views

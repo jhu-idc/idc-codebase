@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.person
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: _GjER43-ftxvR2UClnjLddzSrWNlzc94xym-MKElUcw
 id: taxonomy_term.person.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

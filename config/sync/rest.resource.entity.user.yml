@@ -6,8 +6,6 @@ dependencies:
     - basic_auth
     - serialization
     - user
-_core:
-  default_config_hash: 7l1NBsFqG818aOmd_bqTDa_oWi3EpV75Vf4wpkoxppo
 id: entity.user
 plugin_id: 'entity:user'
 granularity: resource

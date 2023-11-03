@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: 5SUy4U9p47y_Ke10LfvsOR2RVkjpRjPQ5tgAG4Fs1wk
 label: 'External Files'
 name: external_files
 group: Indexing

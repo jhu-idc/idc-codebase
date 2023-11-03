@@ -9,8 +9,6 @@ dependencies:
     - system
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: VFNCtt7POqemCYyZ3x3gWDwdyJfoAmbqHim37oy6onU
 id: idc_ui_theme_boots_subjectname
 theme: idc_ui_theme_boots
 region: sidebar_first

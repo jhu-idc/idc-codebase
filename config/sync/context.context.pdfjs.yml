@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: Tr1c1AVZTJkM0732yQxi9xQuBpCN7X6V_CWkbKwjrN8
 label: 'PDFjs Viewer'
 name: pdfjs
 group: Display

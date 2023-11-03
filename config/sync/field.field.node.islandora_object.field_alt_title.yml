@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_alt_title
     - node.type.islandora_object
-_core:
-  default_config_hash: dMouFg1OR13vwI4XJXZhga423_Qwc42cjpNg10g5TqQ
 id: node.islandora_object.field_alt_title
 field_name: field_alt_title
 entity_type: node

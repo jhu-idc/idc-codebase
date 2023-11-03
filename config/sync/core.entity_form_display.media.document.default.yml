@@ -15,8 +15,6 @@ dependencies:
     - file
     - path
     - view_mode_switch
-_core:
-  default_config_hash: H8rwcqLpsXqtZdgT7Gnf-Z9lUhlnRVKsK0eSEa1N3iw
 id: media.document.default
 targetEntityType: media
 bundle: document

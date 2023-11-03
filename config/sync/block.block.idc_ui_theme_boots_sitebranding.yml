@@ -8,8 +8,6 @@ dependencies:
     - system
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: Qe6YFMsxZxHcUdSm0nXTftS8MjGN2cX-lfUJievSwXU
 id: idc_ui_theme_boots_sitebranding
 theme: idc_ui_theme_boots
 region: footer_first

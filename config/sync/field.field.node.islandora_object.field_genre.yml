@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_genre
     - node.type.islandora_object
     - taxonomy.vocabulary.genre
-_core:
-  default_config_hash: PI3UoNVeBb23r3Dt_dbXddoa4ihN89QS7mFHothrwp8
 id: node.islandora_object.field_genre
 field_name: field_genre
 entity_type: node

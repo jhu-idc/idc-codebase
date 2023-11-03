@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.temporal_subjects
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: w7jMx1KFgcy983Zm9iAMXKmG8dQly3c4fgXhkT1DB98
 id: taxonomy_term.temporal_subjects.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

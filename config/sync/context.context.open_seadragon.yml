@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: Da9SKh2OX1dNN8-V54Zrhcsnb5bNRwQanxqlujk9tzA
 label: 'Open Seadragon'
 name: open_seadragon
 group: Display

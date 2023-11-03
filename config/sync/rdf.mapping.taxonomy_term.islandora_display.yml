@@ -9,8 +9,6 @@ dependencies:
   enforced:
     module:
       - islandora_core_feature
-_core:
-  default_config_hash: toERhmrBEP2WP-7fgnHD2wy5z_3REqyrN1M-KygCtxA
 id: taxonomy_term.islandora_display
 targetEntityType: taxonomy_term
 bundle: islandora_display

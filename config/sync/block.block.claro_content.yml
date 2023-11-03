@@ -6,8 +6,6 @@ dependencies:
     - system
   theme:
     - claro
-_core:
-  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
 id: claro_content
 theme: claro
 region: content

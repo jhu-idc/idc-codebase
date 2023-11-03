@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_language
     - node.type.islandora_object
     - taxonomy.vocabulary.language
-_core:
-  default_config_hash: v9wwx8Vyosd0BWtE0ioibx6ak7wBLsKLTSbDF3kHOdY
 id: node.islandora_object.field_language
 field_name: field_language
 entity_type: node

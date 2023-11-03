@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.geo_location
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: WQO81CrWZfvdpqoTchaAc2RP8vCWbFMPg72L-kQzwBE
 id: taxonomy_term.geo_location.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

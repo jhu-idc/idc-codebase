@@ -5,8 +5,6 @@ dependencies:
   module:
     - islandora
     - openseadragon
-_core:
-  default_config_hash: sN9l77XqTzoy1x5fp1O7v91Di5_6iCx9prNHDvGYrKo
 label: 'Openseadragon Block - Multipaged items'
 name: openseadragon_block
 group: Display

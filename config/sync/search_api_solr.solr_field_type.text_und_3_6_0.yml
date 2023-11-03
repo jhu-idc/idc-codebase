@@ -2,8 +2,6 @@ uuid: 9401855b-63e4-47dd-8beb-a18b6ec0f112
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: GzQnbYvUXyw1EsdqhPOA6ozZ3A-4nei9XZNt5RIrM8g
 id: text_und_3_6_0
 label: 'Language Undefined Text Field'
 minimum_solr_version: 3.6.0
@@ -22,7 +20,7 @@ field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_und.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.StopFilterFactory
@@ -54,7 +52,7 @@ field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_und.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.SynonymFilterFactory
@@ -84,6 +82,7 @@ field_type:
           class: solr.LowerCaseFilterFactory
         -
           class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 unstemmed_field_type: null
 spellcheck_field_type:
   name: text_spell_und
@@ -105,6 +104,7 @@ spellcheck_field_type:
         class: solr.LowerCaseFilterFactory
       -
         class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 collated_field_type: {  }
 solr_configs:
   searchComponents:

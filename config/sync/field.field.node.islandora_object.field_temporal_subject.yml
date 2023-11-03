@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_temporal_subject
     - node.type.islandora_object
     - taxonomy.vocabulary.temporal_subjects
-_core:
-  default_config_hash: hRUtu-c54EddTc5YN6eYxW1wyLKQXU7OSn_xKC7r9qg
 id: node.islandora_object.field_temporal_subject
 field_name: field_temporal_subject
 entity_type: node

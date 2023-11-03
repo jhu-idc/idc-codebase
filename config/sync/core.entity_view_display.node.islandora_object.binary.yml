@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.binary
     - field.field.node.islandora_object.field_abstract
     - field.field.node.islandora_object.field_alt_title
+    - field.field.node.islandora_object.field_alternative_title
     - field.field.node.islandora_object.field_citable_url
     - field.field.node.islandora_object.field_classification
     - field.field.node.islandora_object.field_collection_number
@@ -80,8 +81,6 @@ dependencies:
     - geolocation
     - text
     - user
-_core:
-  default_config_hash: F84yh2PZaba596y4gtXQiaS3901N7DBv3IcJDxcyr6Y
 id: node.islandora_object.binary
 targetEntityType: node
 bundle: islandora_object
@@ -371,6 +370,7 @@ hidden:
   display_media_service_file: true
   display_media_thumbnail: true
   field_alt_title: true
+  field_alternative_title: true
   field_citable_url: true
   field_collection_number: true
   field_contributor: true

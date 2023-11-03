@@ -7,8 +7,6 @@ dependencies:
     - views.view.solr_search_content
   module:
     - search_api
-_core:
-  default_config_hash: 7wIVHSpCnRPcuQN3CG6sK7bDUdbHR0waVas0fLnWV7k
 id: subject_name
 name: 'Subject (Names)'
 weight: -1

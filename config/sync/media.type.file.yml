@@ -2,8 +2,6 @@ uuid: 5735b9e3-9516-4d98-9b30-66ee575a242c
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: KrUBOHEWbkoHy55uCMBHYp9jvZ1PZ6xlmeLnp54NXOk
 id: file
 label: File
 description: 'Files that do not fit into other types listed here. Also use for TIFFs and JP2s.'

@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - language
-_core:
-  default_config_hash: vcDd9H0uIlyOQGoVAJuD3ADMnQeRR_X3B-ojyb8Cbnc
 id: language-add
 label: 'Adding languages'
 module: language

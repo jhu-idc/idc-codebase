@@ -11,8 +11,6 @@ dependencies:
     - node
     - taxonomy
     - user
-_core:
-  default_config_hash: vBKWYGGDoAX-tFd1JErB8tZLSxx3lJ0foouVsgpcbB4
 id: content
 label: Content
 module: node

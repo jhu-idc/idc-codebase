@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - language
-_core:
-  default_config_hash: gjYvYwMqulNsq7VmScWKOqEUxar9AX0TvG8vfCCguUQ
 id: language-edit
 label: 'Editing languages'
 module: language

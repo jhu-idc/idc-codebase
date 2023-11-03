@@ -6,8 +6,6 @@ dependencies:
     - basic_auth
     - serialization
     - taxonomy
-_core:
-  default_config_hash: fgn6TDMdvmVVdjg7rZYU8IH9jfVEIeD75UuxjjikalM
 id: entity.taxonomy_vocabulary
 plugin_id: 'entity:taxonomy_vocabulary'
 granularity: resource

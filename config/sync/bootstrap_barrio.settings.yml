@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: t6US_F0C6QlULV41MsacNyE5f9Nxrp1jNM3MkChYtDY
 bootstrap_barrio_library: production
 bootstrap_barrio_fluid_container: 0
 bootstrap_barrio_sidebar_position: both

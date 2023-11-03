@@ -34,8 +34,6 @@ dependencies:
     - controlled_access_terms
     - link
     - path
-_core:
-  default_config_hash: ZaLPFlxFe0NJApwG98_vYftEPMQzsxfMPP0pDPJrgTs
 id: node.collection_object.default
 targetEntityType: node
 bundle: collection_object

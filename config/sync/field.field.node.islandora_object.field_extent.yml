@@ -5,8 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_extent
     - node.type.islandora_object
-_core:
-  default_config_hash: iHcODx2RZgZbguT3z1VJMDoGHYDinWc0o3TPG6RJGp8
 id: node.islandora_object.field_extent
 field_name: field_extent
 entity_type: node

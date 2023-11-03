@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_resource_type
     - node.type.islandora_object
     - taxonomy.vocabulary.resource_types
-_core:
-  default_config_hash: U3ctHIWpnakahZ6NcXFvfn_kRkcItqP3wz8MmICO2Ss
 id: node.islandora_object.field_resource_type
 field_name: field_resource_type
 entity_type: node

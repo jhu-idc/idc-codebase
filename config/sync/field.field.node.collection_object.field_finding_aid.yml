@@ -12,8 +12,6 @@ third_party_settings:
   epp:
     value: ''
     on_update: 0
-_core:
-  default_config_hash: STEhvYGTDCX93VFP-NqYSqlDr1ITLd5ICvzlzczyshA
 id: node.collection_object.field_finding_aid
 field_name: field_finding_aid
 entity_type: node

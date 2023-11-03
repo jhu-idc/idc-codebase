@@ -8,8 +8,6 @@ dependencies:
     - node
     - taxonomy
     - user
-_core:
-  default_config_hash: gzRObt67V7wi2ravHPIkYNJBHwYdzeeo5MiJd3p5p14
 id: oai_pmh
 label: OAI-PMH
 module: views

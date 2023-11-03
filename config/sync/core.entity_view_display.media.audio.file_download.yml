@@ -14,8 +14,6 @@ dependencies:
     - media.type.audio
   module:
     - filehash
-_core:
-  default_config_hash: 2FZ_TcS2MGA5tQMskHrjKwJ_ucnDEdIfsnMG5MHhjyA
 id: media.audio.file_download
 targetEntityType: media
 bundle: audio

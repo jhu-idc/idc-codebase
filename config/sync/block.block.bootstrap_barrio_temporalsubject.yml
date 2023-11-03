@@ -9,8 +9,6 @@ dependencies:
     - system
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: 1BMA18tJL_4xlrR2wg5QSmr499p157HBiWAgv_rJmQ4
 id: bootstrap_barrio_temporalsubject
 theme: bootstrap_barrio
 region: top_header

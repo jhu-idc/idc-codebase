@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.resource_types
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: fFgIbbfq71u98DtB8bkd9HOnh8b_Kzy_-tJV8jtpiCE
 id: taxonomy_term.resource_types.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

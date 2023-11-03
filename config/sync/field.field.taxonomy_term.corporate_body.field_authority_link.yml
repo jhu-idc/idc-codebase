@@ -7,8 +7,6 @@ dependencies:
     - taxonomy.vocabulary.corporate_body
   module:
     - controlled_access_terms
-_core:
-  default_config_hash: vzhiqtYF3W0dPgZRy1PcvJMQ92TABMhRMMuRJwUqcMQ
 id: taxonomy_term.corporate_body.field_authority_link
 field_name: field_authority_link
 entity_type: taxonomy_term

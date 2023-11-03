@@ -4,8 +4,6 @@ status: true
 dependencies:
   module:
     - islandora
-_core:
-  default_config_hash: oGkVaBYKYomHuP2Z9rfQhrLtOz__N6ss2_GoosejYLk
 label: Binary
 name: binary
 group: Display

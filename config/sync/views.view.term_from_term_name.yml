@@ -7,8 +7,6 @@ dependencies:
     - serialization
     - taxonomy
     - user
-_core:
-  default_config_hash: 6S5Bt8qGqeGpHv2L9rc_3qXRZN1jwx9yyrsUd7TqLwY
 id: term_from_term_name
 label: 'Term from term name'
 module: views

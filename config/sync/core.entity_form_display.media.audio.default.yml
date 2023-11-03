@@ -15,8 +15,6 @@ dependencies:
     - file
     - islandora
     - path
-_core:
-  default_config_hash: Yn8eodNOBbempx1_qeBOIbHMk3lCLqSqLQ-FYSdm83A
 id: media.audio.default
 targetEntityType: media
 bundle: audio

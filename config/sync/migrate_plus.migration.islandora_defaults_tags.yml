@@ -2,8 +2,6 @@ uuid: bb27baaa-0ede-46ee-9cdb-60358f6b60b6
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: TSmzvdb0Ez0oyUVnrGfjmvCBZvKiddOpLiHJjJyvmYE
 id: islandora_defaults_tags
 class: null
 field_plugin_method: null

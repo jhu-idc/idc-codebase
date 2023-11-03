@@ -8,8 +8,6 @@ dependencies:
   module:
     - link
     - text
-_core:
-  default_config_hash: W82-1KTjwwd5e98Euc8TFmDyiBrEnKMhpUlbDE_lFJc
 id: taxonomy_term.resource_types.default
 targetEntityType: taxonomy_term
 bundle: resource_types

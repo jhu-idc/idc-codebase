@@ -7,8 +7,6 @@ dependencies:
     - views.view.solr_search_content
   module:
     - search_api
-_core:
-  default_config_hash: m8xjlb85p3PCns2LJMakGwaXjxaJJN_ZhZKfJm55ymU
 id: temporal_subject
 name: 'Subject (Temporal)'
 weight: 0

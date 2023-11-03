@@ -21,8 +21,6 @@ dependencies:
     - controlled_access_terms
     - path
     - text
-_core:
-  default_config_hash: lJpvaB2FNcQ3KUo85b0QbrBtpeX38YpRlPXskVn8p5k
 id: taxonomy_term.person.default
 targetEntityType: taxonomy_term
 bundle: person

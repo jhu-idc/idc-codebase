@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: ZdPdgeYPxAPoTIlcCxW_tRoExm87onUdOjF3ZY2gfto
 rest_oai_pmh:
   entity_type: node
 view_displays:

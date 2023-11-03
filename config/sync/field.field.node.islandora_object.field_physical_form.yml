@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.field_physical_form
     - node.type.islandora_object
     - taxonomy.vocabulary.physical_form
-_core:
-  default_config_hash: ilcgC7dzbD3x-ZH6rBl4hn00B8032vM0Cs2tvFmaq0A
 id: node.islandora_object.field_physical_form
 field_name: field_physical_form
 entity_type: node

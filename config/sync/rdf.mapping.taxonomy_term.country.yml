@@ -6,8 +6,6 @@ dependencies:
     - taxonomy.vocabulary.country
   module:
     - taxonomy
-_core:
-  default_config_hash: f4Oezg2wdsDVJVSpx7oWJNFS1I3od4WYJ4ib9NIdlE0
 id: taxonomy_term.country
 targetEntityType: taxonomy_term
 bundle: country

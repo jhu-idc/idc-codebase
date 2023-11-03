@@ -6,8 +6,6 @@ dependencies:
     - field.storage.media.field_media_use
     - media.type.document
     - taxonomy.vocabulary.islandora_media_use
-_core:
-  default_config_hash: TJZ3dn9Mw-JJQxNvcLzm0GEyyOFz-_HbmyrZD0Jg8IM
 id: media.document.field_media_use
 field_name: field_media_use
 entity_type: media

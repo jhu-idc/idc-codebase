@@ -4,12 +4,10 @@ status: false
 dependencies:
   theme:
     - idc_ui_theme_boots
-_core:
-  default_config_hash: gUw6yvXTwg-Ldx15B87h7SjnUcF64ANf635LkieF8rg
 id: idc_ui_theme_boots_local_tasks
 theme: idc_ui_theme_boots
 region: content
-weight: -7
+weight: -10
 provider: null
 plugin: local_tasks_block
 settings:

@@ -9,8 +9,6 @@ dependencies:
     - node
     - text
     - user
-_core:
-  default_config_hash: 3lICW-NyvTeW1CQi6JJm0-GE1SA_Hm842iVVTxJMWWE
 id: article_mods_mapping
 label: 'Article MODS Mapping'
 module: views

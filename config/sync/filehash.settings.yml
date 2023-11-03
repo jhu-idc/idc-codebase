@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: IJ_2l62Z0ZwSAl-qPCs6tp0SqmZisIU_RrFPQf8slFg
 algos:
   blake2b_128: '0'
   blake2b_160: '0'

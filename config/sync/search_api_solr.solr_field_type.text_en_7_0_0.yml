@@ -2,8 +2,6 @@ uuid: 3528ae29-9615-4918-a76d-b00a655d623f
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 6ys8AHKnrour41EVz_tuMhV40copWQwOwI_5yziiKlc
 id: text_en_7_0_0
 label: 'English Text Field'
 minimum_solr_version: 7.0.0
@@ -22,7 +20,7 @@ field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_en.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.StopFilterFactory
@@ -38,6 +36,8 @@ field_type:
           preserveOriginal: 1
           catenateAll: 0
           catenateWords: 1
+        -
+          class: solr.FlattenGraphFilterFactory
         -
           class: solr.LengthFilterFactory
           min: 2
@@ -57,7 +57,7 @@ field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_en.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.SynonymGraphFilterFactory
@@ -90,6 +90,7 @@ field_type:
           language: English
         -
           class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 unstemmed_field_type:
   name: text_unstemmed_en
   class: solr.TextField
@@ -102,7 +103,7 @@ unstemmed_field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_en.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.StopFilterFactory
@@ -119,6 +120,8 @@ unstemmed_field_type:
           catenateAll: 0
           catenateWords: 1
         -
+          class: solr.FlattenGraphFilterFactory
+        -
           class: solr.LengthFilterFactory
           min: 2
           max: 100
@@ -133,7 +136,7 @@ unstemmed_field_type:
           class: solr.MappingCharFilterFactory
           mapping: accents_en.txt
       tokenizer:
-        class: solr.WhitespaceTokenizerFactory
+        class: solr.StandardTokenizerFactory
       filters:
         -
           class: solr.SynonymGraphFilterFactory
@@ -162,6 +165,7 @@ unstemmed_field_type:
           class: solr.LowerCaseFilterFactory
         -
           class: solr.RemoveDuplicatesTokenFilterFactory
+  storeOffsetsWithPositions: true
 spellcheck_field_type: null
 collated_field_type:
   name: collated_en
@@ -241,7 +245,7 @@ solr_configs:
               VALUE: sm_context_tags
             -
               name: buildOnCommit
-              VALUE: 'true'
+              VALUE: 'false'
             -
               name: buildOnStartup
               VALUE: 'false'

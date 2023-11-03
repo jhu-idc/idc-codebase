@@ -8,8 +8,6 @@ dependencies:
     - views
   theme:
     - bootstrap_barrio
-_core:
-  default_config_hash: UGbvzHUCMdMe84lOKlLRajT3aIi2OFnAGpZw1eceoQY
 id: bootstrap_barrio_exposedformsolr_search_contentpage_1
 theme: bootstrap_barrio
 region: header

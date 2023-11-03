@@ -15,8 +15,6 @@ dependencies:
     - serialization
     - taxonomy
     - user
-_core:
-  default_config_hash: AOLUIGOwfCNKC-el32SJhiOtxZeeXqRzPtbti-bbyX8
 id: iiif_manifest
 label: 'IIIF Manifest'
 module: views

@@ -16,8 +16,6 @@ dependencies:
     - media.type.image
   module:
     - filehash
-_core:
-  default_config_hash: mH-3GLriL2Vx34DOnmHTqPxMCEmqJLtesug6_H_6piM
 id: media.image.file_download
 targetEntityType: media
 bundle: image
