@@ -2,6 +2,8 @@ uuid: 2085e717-7a48-4ef0-9520-5ff2fb6ac983
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: dCoH-qdMIgVbYTYsOxAhebwOAMS76eSlZ8WT4ActioI
 id: text_und_7_0_0
 label: 'Language Undefined Text Field'
 minimum_solr_version: 7.0.0
@@ -166,6 +168,9 @@ solr_configs:
             -
               name: name
               VALUE: und
+            -
+              name: indexPath
+              VALUE: ./und
             -
               name: lookupImpl
               VALUE: AnalyzingInfixLookupFactory

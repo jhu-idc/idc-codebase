@@ -2,6 +2,8 @@ uuid: 9bfd4fd7-e942-4146-bfc8-eefe53ff17c6
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: puB8VCKbCpDzJ-dEd9mlRUEShkBB7TQLAPiTBxCYtQs
 id: text_phonetic_und_7_0_0
 label: 'Fulltext Phonetic'
 minimum_solr_version: 7.0.0

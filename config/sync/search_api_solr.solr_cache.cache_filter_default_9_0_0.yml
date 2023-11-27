@@ -2,6 +2,8 @@ uuid: 9a908313-f018-4fce-8f56-56724f29c506
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: kPqER5Lz5zFQ-x9Mmadmzp6QuCx8HkqXZaPkTNWoN64
 id: cache_filter_default_9_0_0
 label: 'Filter Cache'
 minimum_solr_version: 9.0.0
