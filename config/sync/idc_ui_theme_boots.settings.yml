@@ -10,7 +10,7 @@ logo:
 bootstrap_barrio_library: production
 bootstrap_barrio_fluid_container: 1
 bootstrap_barrio_region_clean_top_header: '0'
-bootstrap_barrio_region_class_top_header: row
+bootstrap_barrio_region_class_top_header: 'row top'
 bootstrap_barrio_region_clean_top_header_form: '0'
 bootstrap_barrio_region_class_top_header_form: row
 bootstrap_barrio_region_clean_header: '1'
@@ -19,8 +19,8 @@ bootstrap_barrio_region_clean_header_form: '0'
 bootstrap_barrio_region_class_header_form: row
 bootstrap_barrio_region_clean_primary_menu: '1'
 bootstrap_barrio_region_class_primary_menu: container_navbar
-bootstrap_barrio_region_clean_secondary_menu: '0'
-bootstrap_barrio_region_class_secondary_menu: row
+bootstrap_barrio_region_clean_secondary_menu: '1'
+bootstrap_barrio_region_class_secondary_menu: 'row content-center'
 bootstrap_barrio_region_clean_page_top: '0'
 bootstrap_barrio_region_class_page_top: row
 bootstrap_barrio_region_clean_page_bottom: '0'
@@ -93,7 +93,7 @@ bootstrap_barrio_navbar_class: align-center
 bootstrap_barrio_bootstrap_icons: 1
 bootstrap_barrio_source: bootstrap_barrio/bootstrap
 bootstrap_barrio_enable_color: 0
-bootstrap_barrio_container: container-fluid
+bootstrap_barrio_container: container
 bootstrap_barrio_hide_node_label: 0
 bootstrap_barrio_breadcrumb_divider: ''
 bootstrap_barrio_button_type: primary
