@@ -19,7 +19,7 @@ conditions:
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'
-    uri: 'http://purl.org/dc/dcmitype/Collection,http://vocab.getty.edu/aat/300242735'
+    uri: 'http://purl.org/dc/dcmitype/Collection,http://vocab.getty.edu/aat/300242735,http://purl.org/ontology/bibo/Collection'
     logic: or
 reactions:
   blocks:
