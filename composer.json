@@ -85,6 +85,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
         "drupal/advanced_search": "^2.0",
+        "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^6.0",
         "drupal/bibcite": "^3.0@beta",
         "drupal/block_class": "^2.0",
